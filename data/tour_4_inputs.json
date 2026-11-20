@@ -1,0 +1,44 @@
+{
+ "growth": {
+  "USA": 0.04,
+  "Chine": 0.1,
+  "Europe": -0.03
+ },
+ "fx": {
+  "USA": 1.0,
+  "Chine": 0.1493,
+  "Europe": 1.2962
+ },
+ "mc": {
+  "USA|Thermique": 9000,
+  "Chine|Thermique": 10400,
+  "Europe|Thermique": 12089,
+  "USA|Hybride": 24396,
+  "Chine|Hybride": 22500,
+  "Europe|Hybride": 25440
+ },
+ "max_feat": {
+  "Thermique": 8,
+  "Hybride": 6
+ },
+ "adv_mult": 0.75,
+ "price_up": 0.25,
+ "price_down": 0.15,
+ "feat_down": 1,
+ "our_state": {
+  "esg": 0.15,
+  "cert1": 1.0
+ },
+ "supply_cap": {
+  "Hybride": 950,
+  "Thermique": 2000
+ },
+ "behaviours": [
+  "statu quo",
+  "tendance",
+  "guerre des prix",
+  "montée en gamme",
+  "meilleure réponse",
+  "mélange"
+ ]
+}

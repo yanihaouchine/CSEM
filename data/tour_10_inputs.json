@@ -1,0 +1,160 @@
+{
+ "growth": {
+  "USA": 0.025,
+  "Chine": 0.1,
+  "Europe": -0.1
+ },
+ "fx": {
+  "USA": 1.0,
+  "Chine": 0.1456,
+  "Europe": 1.279
+ },
+ "mc": {
+  "USA|Hybride": 20651,
+  "USA|Électrique": 27162,
+  "Chine|Hybride": 15718,
+  "Chine|Électrique": 19184,
+  "Europe|Hybride": 24737,
+  "Europe|Électrique": 24123
+ },
+ "max_feat": {
+  "Hybride": 10,
+  "Électrique": 9,
+  "Hydrogène": 1
+ },
+ "adv_mult": 1.0,
+ "our_state": {
+  "cert1": 1.0
+ },
+ "carry_weight": 0.5,
+ "behaviours": [
+  "statu quo",
+  "tendance",
+  "guerre des prix",
+  "montée en gamme",
+  "meilleure réponse",
+  "mélange"
+ ],
+ "techs": [
+  "Hybride",
+  "Électrique",
+  "Hydrogène"
+ ],
+ "lineup": {
+  "USA": [
+   "Hybride",
+   "Électrique"
+  ],
+  "Chine": [
+   "Hybride",
+   "Électrique"
+  ],
+  "Europe": [
+   "Hybride",
+   "Électrique"
+  ]
+ },
+ "bareme": {
+  "stock_fixe": 0,
+  "net_ref": 27980,
+  "rayon_max": 0.06,
+  "nous": {
+   "certification": 2
+  }
+ },
+ "production": {
+  "sources": {
+   "usine Chine H": {
+    "zone": "Chine",
+    "tech": "Hybride",
+    "cost": 15562,
+    "cap": 1250,
+    "pool": "usine Chine"
+   },
+   "usine Chine E": {
+    "zone": "Chine",
+    "tech": "Électrique",
+    "cost": 18382,
+    "cap": 1250,
+    "pool": "usine Chine"
+   },
+   "usine USA H": {
+    "zone": "USA",
+    "tech": "Hybride",
+    "cost": 20771,
+    "cap": 1800,
+    "pool": "usine USA"
+   },
+   "usine USA E": {
+    "zone": "USA",
+    "tech": "Électrique",
+    "cost": 27162,
+    "cap": 1800,
+    "pool": "usine USA"
+   },
+   "stock Chine E": {
+    "zone": "Chine",
+    "tech": "Électrique",
+    "cost": 0,
+    "cap": 297
+   },
+   "stock Chine H": {
+    "zone": "Chine",
+    "tech": "Hybride",
+    "cost": 0,
+    "cap": 77
+   },
+   "stock USA H": {
+    "zone": "USA",
+    "tech": "Hybride",
+    "cost": 0,
+    "cap": 68
+   },
+   "sous-traitance Chine H": {
+    "zone": "Chine",
+    "tech": "Hybride",
+    "cost": 23137,
+    "cap": 389,
+    "pool": "st Chine"
+   },
+   "sous-traitance Chine E": {
+    "zone": "Chine",
+    "tech": "Électrique",
+    "cost": 29173,
+    "cap": 389,
+    "pool": "st Chine"
+   },
+   "sous-traitance USA H": {
+    "zone": "USA",
+    "tech": "Hybride",
+    "cost": 28620,
+    "cap": 101,
+    "pool": "st USA"
+   },
+   "sous-traitance USA E": {
+    "zone": "USA",
+    "tech": "Électrique",
+    "cost": 40001,
+    "cap": 101,
+    "pool": "st USA"
+   }
+  },
+  "pools": {
+   "usine Chine": 1223,
+   "usine USA": 1767,
+   "st Chine": 389,
+   "st USA": 101
+  },
+  "transport": {
+   "Chine>USA|Hybride": 2634,
+   "Chine>Europe|Hybride": 1339,
+   "USA>Chine|Hybride": 6581,
+   "USA>Europe|Hybride": 3316,
+   "Chine>USA|Électrique": 3057,
+   "Chine>Europe|Électrique": 1537,
+   "USA>Chine|Électrique": 8499,
+   "USA>Europe|Électrique": 4274
+  }
+ },
+ "_note": "Tour 10 : entrées du tour 9 avec taux de change et croissance mis à jour (coûts unitaires et sources de production non relus, faute de temps)."
+}

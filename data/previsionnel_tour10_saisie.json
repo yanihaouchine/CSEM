@@ -1,0 +1,66 @@
+{
+ "ca": 98252803,
+ "ebitda": 30405556,
+ "ebit": 29672724,
+ "net": 26268622,
+ "net_usa": 4242458,
+ "net_chine": 9826328,
+ "net_europe": 12199835,
+ "previsionnel": {
+  "zones": {
+   "USA": {
+    "ventes": 23955141.0,
+    "internes": 3511650.0,
+    "ca": 27466791.0,
+    "fixes": 3172049.0,
+    "ebit": 4190439.0,
+    "net": 4242458.0
+   },
+   "Chine": {
+    "ventes": 40414323.0,
+    "internes": 8576071.0,
+    "ca": 48990395.0,
+    "fixes": 907620.0,
+    "ebit": 10216907.0,
+    "net": 9826328.0
+   },
+   "Europe": {
+    "ventes": 33883339.0,
+    "internes": 0.0,
+    "ca": 33883339.0,
+    "fixes": 20000.0,
+    "ebit": 15265378.0,
+    "net": 12199835.0
+   }
+  },
+  "tresorerie": {
+   "USA": 45580366.0,
+   "Chine": 80950423.0,
+   "Europe": 14331692.0
+  },
+  "fp": 152505928.0,
+  "dette_lt": 0.0,
+  "decouvert": 0.0,
+  "roe": 18.8,
+  "bpa": 16.17
+ },
+ "dette_ct_nouvelle": [
+  0.0
+ ],
+ "tresorerie_fin": [
+  45580366.0
+ ],
+ "fournisseurs_requis": 2.0,
+ "fournisseurs_actifs": 2,
+ "cout_composant": 975.0,
+ "stock_final_Thermique": 0.0,
+ "non_servi_Thermique": 0.0,
+ "stock_final_Hybride": 112.0,
+ "non_servi_Hybride": 0.0,
+ "stock_final_Électrique": 88.0,
+ "non_servi_Électrique": 0.0,
+ "stock_final_Hydrogène": 0.0,
+ "non_servi_Hydrogène": 0.0,
+ "score_esg": 2.96,
+ "jours_homme_libres": 0.0
+}

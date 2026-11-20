@@ -1,0 +1,28 @@
+{
+ "growth": {
+  "USA": 0.04,
+  "Chine": 0.09,
+  "Europe": 0.0
+ },
+ "fx": {
+  "USA": 1.0016548201573787,
+  "Chine": 0.14451004749725976,
+  "Europe": 1.234344318071352
+ },
+ "mc": {
+  "Chine|Hybride": 24350.0,
+  "Chine|Thermique": 11474.68030690537,
+  "Europe|Hybride": 27601.85185185185,
+  "Europe|Thermique": 15305.11811023622,
+  "USA|Hybride": 24898.425196850392,
+  "USA|Thermique": 13800.45871559633
+ },
+ "max_feat": {
+  "Thermique": 8,
+  "Hybride": 3
+ },
+ "adv_mult": 0.85,
+ "price_up": 0.2,
+ "price_down": 0.15,
+ "our_state": {}
+}

@@ -1,0 +1,125 @@
+{
+ "growth": {
+  "USA": 0.01,
+  "Chine": 0.06,
+  "Europe": 0.06
+ },
+ "fx": {
+  "USA": 1.0,
+  "Chine": 0.1419,
+  "Europe": 1.2067
+ },
+ "mc": {
+  "USA|Thermique": 13091,
+  "USA|Hybride": 23264,
+  "Chine|Thermique": 10096,
+  "Chine|Hybride": 18460,
+  "Europe|Thermique": 14956,
+  "Europe|Hybride": 20593
+ },
+ "max_feat": {
+  "Thermique": 8,
+  "Hybride": 8
+ },
+ "adv_mult": 1.0,
+ "price_up": 0.18,
+ "price_down": 0.12,
+ "feat_down": 1,
+ "adv_max": 1500,
+ "our_state": {
+  "cert1": 0.0
+ },
+ "behaviours": [
+  "statu quo",
+  "tendance",
+  "guerre des prix",
+  "montée en gamme",
+  "meilleure réponse",
+  "mélange"
+ ],
+ "production": {
+  "sources": {
+   "stock Chine H": {
+    "zone": "Chine",
+    "tech": "Hybride",
+    "cost": 0,
+    "cap": 56
+   },
+   "usine Chine T": {
+    "zone": "Chine",
+    "tech": "Thermique",
+    "cost": 9802,
+    "cap": 1250,
+    "pool": "usine Chine"
+   },
+   "usine Chine H": {
+    "zone": "Chine",
+    "tech": "Hybride",
+    "cost": 17922,
+    "cap": 1250,
+    "pool": "usine Chine"
+   },
+   "usine USA T": {
+    "zone": "USA",
+    "tech": "Thermique",
+    "cost": 12710,
+    "cap": 1800,
+    "pool": "usine USA"
+   },
+   "usine USA H": {
+    "zone": "USA",
+    "tech": "Hybride",
+    "cost": 22586,
+    "cap": 1800,
+    "pool": "usine USA"
+   },
+   "sous-traitance Chine T": {
+    "zone": "Chine",
+    "tech": "Thermique",
+    "cost": 16117,
+    "cap": 546,
+    "pool": "st Chine"
+   },
+   "sous-traitance Chine H": {
+    "zone": "Chine",
+    "tech": "Hybride",
+    "cost": 21666,
+    "cap": 546,
+    "pool": "st Chine"
+   },
+   "sous-traitance USA T": {
+    "zone": "USA",
+    "tech": "Thermique",
+    "cost": 17317,
+    "cap": 189,
+    "pool": "st USA"
+   },
+   "sous-traitance USA H": {
+    "zone": "USA",
+    "tech": "Hybride",
+    "cost": 25217,
+    "cap": 189,
+    "pool": "st USA"
+   }
+  },
+  "pools": {
+   "usine Chine": 1210,
+   "usine USA": 1760,
+   "st Chine": 546,
+   "st USA": 189
+  },
+  "transport": {
+   "Chine>USA|Thermique": 1098,
+   "Chine>Europe|Thermique": 1304,
+   "USA>Chine|Thermique": 4170,
+   "USA>Europe|Thermique": 2535,
+   "Chine>USA|Hybride": 1840,
+   "Chine>Europe|Hybride": 2071,
+   "USA>Chine|Hybride": 6985,
+   "USA>Europe|Hybride": 4041
+  }
+ },
+ "carry_weight": 0.5,
+ "_note_growth": "moyenne de la croissance annoncée (USA 2 %, Chine 10 %, Europe -3 %) et de la croissance réelle du tour 5 (-0,7 %, +2,3 %, +15,8 %) : les annonces se sont trompées de 3 à 19 points au tour 5",
+ "_note_mc": "tout en interne (la sous-traitance coûte désormais 3 700 à 6 300 USD de plus par véhicule) ; Hybride et Thermique Chine à l'usine de Chine, le reste à l'usine USA"
+}

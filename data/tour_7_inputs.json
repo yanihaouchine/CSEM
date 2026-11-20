@@ -1,0 +1,72 @@
+{
+ "growth": {
+  "USA": 0.01,
+  "Chine": 0.06,
+  "Europe": 0.06
+ },
+ "fx": {
+  "USA": 1.0,
+  "Chine": 0.139,
+  "Europe": 1.1826
+ },
+ "mc": {
+  "USA|Électrique": 32594,
+  "Chine|Électrique": 30177,
+  "Europe|Électrique": 32920
+ },
+ "max_feat": {
+  "Hybride": 8,
+  "Électrique": 7
+ },
+ "adv_mult": 1.0,
+ "our_state": {
+  "cert1": 1.0
+ },
+ "behaviours": [
+  "statu quo",
+  "tendance",
+  "guerre des prix",
+  "montée en gamme",
+  "meilleure réponse",
+  "mélange"
+ ],
+ "carry_weight": 0.5,
+ "_note": "créé le 20/11 à 9h10, APRÈS la saisie des décisions du tour 7 et AVANT ses résultats, pour rejouer ce tour. growth : aucune croissance chiffrée n'est annoncée au tour 7 (« fin des thermiques, réduction forte de la demande d'hybrides ») ; valeurs de la page Demande (1 / 6 / 6 %), reconduites du tour 6. mc Électrique : coût unitaire lu sur la plateforme (37 494 USD, 249 837 RMB, 32 276 EUR avec 7 équipements), équipements retirés. mc Hybride : absent, repris du dernier rapport. Certification Bronze prise au tour 7.",
+ "lineup": {
+  "USA": [
+   "Hybride",
+   "Électrique"
+  ],
+  "Chine": [
+   "Hybride",
+   "Électrique"
+  ],
+  "Europe": [
+   "Hybride",
+   "Électrique"
+  ]
+ },
+ "new_products": {
+  "USA|Électrique": [
+   55000,
+   7,
+   600
+  ],
+  "Chine|Électrique": [
+   440000,
+   7,
+   500
+  ],
+  "Europe|Électrique": [
+   55000,
+   7,
+   600
+  ]
+ },
+ "entrants": 8,
+ "techs": [
+  "Hybride",
+  "Électrique"
+ ],
+ "_note_lineup": "gamme jouée au tour 7 ; entrants = 8 concurrents supposés lancer l'Électrique dans chaque zone (hypothèse, le Thermique n'ayant plus de marché)"
+}

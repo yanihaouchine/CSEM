@@ -1,0 +1,113 @@
+{
+ "growth": {
+  "USA": 0.025,
+  "Chine": 0.1,
+  "Europe": -0.045
+ },
+ "fx": {
+  "USA": 1.0,
+  "Chine": 0.1321,
+  "Europe": 1.183
+ },
+ "mc": {
+  "USA|Hybride": 21028,
+  "USA|Électrique": 25917,
+  "Chine|Hybride": 16285,
+  "Chine|Électrique": 21638,
+  "Europe|Hybride": 18848,
+  "Europe|Électrique": 23778
+ },
+ "max_feat": {
+  "Hybride": 9,
+  "Électrique": 8,
+  "Hydrogène": 1
+ },
+ "adv_mult": 1.0,
+ "our_state": {
+  "cert1": 1.0
+ },
+ "carry_weight": 0.5,
+ "behaviours": [
+  "statu quo",
+  "tendance",
+  "guerre des prix",
+  "montée en gamme",
+  "meilleure réponse",
+  "mélange"
+ ],
+ "techs": [
+  "Hybride",
+  "Électrique",
+  "Hydrogène"
+ ],
+ "lineup": {
+  "USA": [
+   "Hybride",
+   "Électrique"
+  ],
+  "Chine": [
+   "Hybride",
+   "Électrique"
+  ],
+  "Europe": [
+   "Hybride",
+   "Électrique"
+  ]
+ },
+ "bareme": {
+  "stock_fixe": 31,
+  "net_ref": 27871,
+  "rayon_max": 0.06,
+  "nous": {
+   "certification": 4,
+   "E": 3.205
+  }
+ },
+ "production": {
+  "sources": {
+   "usine Chine H": {
+    "zone": "Chine",
+    "tech": "Hybride",
+    "cost": 16284,
+    "cap": 1250,
+    "pool": "usine Chine"
+   },
+   "usine Chine E": {
+    "zone": "Chine",
+    "tech": "Électrique",
+    "cost": 21636,
+    "cap": 1250,
+    "pool": "usine Chine"
+   },
+   "usine USA H": {
+    "zone": "USA",
+    "tech": "Hybride",
+    "cost": 21028,
+    "cap": 1800,
+    "pool": "usine USA"
+   },
+   "usine USA E": {
+    "zone": "USA",
+    "tech": "Électrique",
+    "cost": 26070,
+    "cap": 1800,
+    "pool": "usine USA"
+   }
+  },
+  "pools": {
+   "usine Chine": 1210,
+   "usine USA": 1760
+  },
+  "transport": {
+   "Chine>USA|Hybride": 2743,
+   "Chine>Europe|Hybride": 1390,
+   "USA>Chine|Hybride": 5186,
+   "USA>Europe|Hybride": 2934,
+   "Chine>USA|Électrique": 3545,
+   "Chine>Europe|Électrique": 1765,
+   "USA>Chine|Électrique": 6346,
+   "USA>Europe|Électrique": 3589
+  }
+ },
+ "_note": "tour 8, créé le 20/11 à 10h15. growth : conditions de marché (USA +2 à 3 %, Chine autour de +10 %, Europe -4 à -5 %). fx : taux implicites du tour 7, RMB -5 % (annoncé ; vérifié : coût Hybride Chine 162 642 RMB = 16 284 USD). mc : coût unitaire lu page Marketing, équipements retirés. max_feat lus page Marketing (Hybride 9, Électrique 8) ; Hydrogène : technologie + 1 équipement (R&D du tour 7). Coût usine USA Électrique : estimé (ligne à 0 %), à relire sur la plateforme. Droits Chine -> USA supposés à 15 % (annonce). Pools : capacité moins les pertes."
+}

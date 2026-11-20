@@ -1,0 +1,385 @@
+{
+ "marketconditions": {},
+ "events": {
+  "esg.sustainable.sourcing.shift": [
+   "Continuer l'approvisionnement actuel",
+   "Participation partielle aux matériaux durables",
+   "Engagement total envers le développement durable"
+  ],
+  "esg.battery.bargaining": [
+   "Conserver les batteries actuelles",
+   "Sous traiter les batteries",
+   "Co-développer les batteries"
+  ]
+ },
+ "demand": {
+  "us.growth.prediction": "saisie",
+  "asia.growth.prediction": "saisie",
+  "eu.growth.prediction": "saisie",
+  "us1.tech": [
+   "",
+   "Thermique",
+   "Électrique"
+  ],
+  "area1.tech3.share.est": "saisie",
+  "us2.tech": [
+   "",
+   "Thermique",
+   "Hybride"
+  ],
+  "area1.tech2.share.est": "saisie",
+  "asia1.tech": [
+   "",
+   "Thermique",
+   "Électrique"
+  ],
+  "area2.tech3.share.est": "saisie",
+  "asia2.tech": [
+   "",
+   "Thermique",
+   "Hybride"
+  ],
+  "area2.tech2.share.est": "saisie",
+  "eu1.tech": [
+   "",
+   "Thermique",
+   "Électrique"
+  ],
+  "area3.tech3.share.est": "saisie",
+  "eu2.tech": [
+   "",
+   "Thermique",
+   "Hybride"
+  ],
+  "area3.tech2.share.est": "saisie"
+ },
+ "production": {
+  "us.line1.tech": [
+   "",
+   "Thermique",
+   "Électrique"
+  ],
+  "us.line2.tech": [
+   "",
+   "Thermique",
+   "Hybride"
+  ],
+  "asia.line1.tech": [
+   "",
+   "Thermique",
+   "Électrique"
+  ],
+  "asia.line2.tech": [
+   "",
+   "Thermique",
+   "Hybride"
+  ],
+  "us.production1": "saisie",
+  "us.production2": "saisie",
+  "asia.production1": "saisie",
+  "asia.production2": "saisie",
+  "esg.renew.energy.area1": "saisie",
+  "esg.renew.energy.area2": "saisie",
+  "us.outsource1": "saisie",
+  "us.outsource2": "saisie",
+  "asia.outsource1": "saisie",
+  "asia.outsource2": "saisie",
+  "esg.emissions.invest": "case",
+  "esg.energy.invest": "case",
+  "esg.water.invest": "case",
+  "esg.recyclability": [
+   "Recyclage des matériaux de base",
+   "Conception pour le démontage facile",
+   "Utilisation de matériaux recyclés",
+   "Évaluation du cycle de vie",
+   "Systèmes de cycle fermé"
+  ],
+  "esg.recyclability.commit": "case"
+ },
+ "inventory": {},
+ "investments": {
+  "next.round.estimate.1": "saisie",
+  "round.after.estimate.1": "saisie",
+  "next.round.estimate.2": "saisie",
+  "round.after.estimate.2": "saisie",
+  "next.round.estimate.3": "saisie",
+  "round.after.estimate.3": "saisie",
+  "next.round.estimate.4": "saisie",
+  "round.after.estimate.4": "saisie",
+  "us.newplants": "saisie",
+  "asia.newplants": "saisie"
+ },
+ "procurement": {
+  "supplier.1": "case",
+  "study.1": "case",
+  "supplier.2": "case",
+  "study.2": "case",
+  "supplier.3": "case",
+  "study.3": "case",
+  "supplier.4": "case",
+  "study.4": "case",
+  "supplier.5": "case",
+  "study.5": "case"
+ },
+ "environmentalimpact": {},
+ "hr": {
+  "rd.engineer.turnover.estimate.1": "saisie",
+  "rd.engineer.total.amount.1": "saisie",
+  "rd.engineer.salary.1": "saisie",
+  "rd.engineer.training.1": "saisie"
+ },
+ "hrtraining": {
+  "esg.trn.basic": "case",
+  "esg.trn.work.safety": "case",
+  "esg.trn.personal.health": "case",
+  "esg.trn.non.discrimination": "case",
+  "esg.trn.ethics": "case"
+ },
+ "hrlabor": {
+  "esg2.labor.regulations": [
+   "Conformité minimale",
+   "Conformité standard",
+   "Initiatives d'engagement communautaire",
+   "Partenariat stratégique"
+  ],
+  "esg2.employee.relations": [
+   "Efficacité accrue en R&D",
+   "Approche équilibrée",
+   "Accent sur le bien-être des employés",
+   "Collaboration syndicale"
+  ],
+  "esg2.management.quotas": [
+   "Recrutement aveugle, suppression des quotas",
+   "Priorisez modérément le recrutement diversifié",
+   "Prime de départ",
+   "Programmes de mentorat"
+  ]
+ },
+ "rnd": {
+  "rd.engineer.allocation.tech1": "saisie",
+  "rd.engineer.allocation.tech2": "saisie",
+  "rd.engineer.allocation.tech3": "saisie",
+  "rd.engineer.allocation.tech4": "saisie",
+  "license.tech1": [
+   "Aucune nouvelle licence",
+   "1 équipement supplémentaire",
+   "2 équipements supplémentaires"
+  ],
+  "license.tech2": [
+   "Aucune nouvelle licence",
+   "1 équipement supplémentaire"
+  ],
+  "license.tech3": [
+   "Aucune nouvelle licence",
+   "1 équipement supplémentaire",
+   "2 équipements supplémentaires",
+   "3 équipements supplémentaires",
+   "4 équipements supplémentaires",
+   "5 équipements supplémentaires"
+  ],
+  "license.tech4": [
+   "Aucune nouvelle licence",
+   "1 équipement supplémentaire",
+   "2 équipements supplémentaires",
+   "3 équipements supplémentaires",
+   "4 équipements supplémentaires",
+   "5 équipements supplémentaires"
+  ],
+  "license.between.teams.buy": [
+   "Aucune équipe",
+   "Ren'Auto",
+   "AURA",
+   "IronHorse",
+   "YANAUTO",
+   "GT-Automobile VI",
+   "Vrooom Vroooom",
+   "POLRAMOS",
+   "Ça Roule",
+   "BM2P - BMDoublePied",
+   "TABCHOUR AUTO",
+   "MO'THOR"
+  ],
+  "license.between.tech.buy": [
+   "Aucune tech"
+  ],
+  "license.between.price.buy": "saisie",
+  "license.between.teams.sell1": [
+   "Aucune équipe",
+   "Ren'Auto",
+   "AURA",
+   "IronHorse",
+   "YANAUTO",
+   "GT-Automobile VI",
+   "Vrooom Vroooom",
+   "POLRAMOS",
+   "Ça Roule",
+   "BM2P - BMDoublePied",
+   "TABCHOUR AUTO",
+   "MO'THOR"
+  ],
+  "license.between.tech.sell1": [
+   "Aucune tech",
+   "Thermique",
+   "Hybride",
+   "Électrique",
+   "Hydrogène"
+  ],
+  "license.between.price.sell1": "saisie",
+  "license.between.teams.sell2": [
+   "Aucune équipe",
+   "Ren'Auto",
+   "AURA",
+   "IronHorse",
+   "YANAUTO",
+   "GT-Automobile VI",
+   "Vrooom Vroooom",
+   "POLRAMOS",
+   "Ça Roule",
+   "BM2P - BMDoublePied",
+   "TABCHOUR AUTO",
+   "MO'THOR"
+  ],
+  "license.between.tech.sell2": [
+   "Aucune tech",
+   "Thermique",
+   "Hybride",
+   "Électrique",
+   "Hydrogène"
+  ],
+  "license.between.price.sell2": "saisie",
+  "license.between.teams.sell3": [
+   "Aucune équipe",
+   "Ren'Auto",
+   "AURA",
+   "IronHorse",
+   "YANAUTO",
+   "GT-Automobile VI",
+   "Vrooom Vroooom",
+   "POLRAMOS",
+   "Ça Roule",
+   "BM2P - BMDoublePied",
+   "TABCHOUR AUTO",
+   "MO'THOR"
+  ],
+  "license.between.tech.sell3": [
+   "Aucune tech",
+   "Thermique",
+   "Hybride",
+   "Électrique",
+   "Hydrogène"
+  ],
+  "license.between.price.sell3": "saisie"
+ },
+ "marketingusa": {
+  "area1.tech2.feat": "saisie",
+  "area1.tech2.price": "saisie",
+  "area1.tech2.adv": "saisie",
+  "area1.tech2.mstrat": [
+   "Équilibré",
+   "Prix bas",
+   "Équipements",
+   "Image de marque",
+   "Développement durable"
+  ],
+  "area1.tech3.feat": "saisie",
+  "area1.tech3.price": "saisie",
+  "area1.tech3.adv": "saisie",
+  "area1.tech3.mstrat": [
+   "Équilibré",
+   "Prix bas",
+   "Équipements",
+   "Image de marque",
+   "Développement durable"
+  ]
+ },
+ "marketingasia": {
+  "area2.tech2.feat": "saisie",
+  "area2.tech2.price": "saisie",
+  "area2.tech2.adv": "saisie",
+  "area2.tech2.mstrat": [
+   "Équilibré",
+   "Prix bas",
+   "Équipements",
+   "Image de marque",
+   "Développement durable"
+  ],
+  "area2.tech3.feat": "saisie",
+  "area2.tech3.price": "saisie",
+  "area2.tech3.adv": "saisie",
+  "area2.tech3.mstrat": [
+   "Équilibré",
+   "Prix bas",
+   "Équipements",
+   "Image de marque",
+   "Développement durable"
+  ]
+ },
+ "marketingeurope": {
+  "area3.tech2.feat": "saisie",
+  "area3.tech2.price": "saisie",
+  "area3.tech2.adv": "saisie",
+  "area3.tech2.mstrat": [
+   "Équilibré",
+   "Prix bas",
+   "Équipements",
+   "Image de marque",
+   "Développement durable"
+  ],
+  "area3.tech3.feat": "saisie",
+  "area3.tech3.price": "saisie",
+  "area3.tech3.adv": "saisie",
+  "area3.tech3.mstrat": [
+   "Équilibré",
+   "Prix bas",
+   "Équipements",
+   "Image de marque",
+   "Développement durable"
+  ]
+ },
+ "marketingcertifications": {
+  "esg.reporting": [
+   "Pas de certification",
+   "Bronze"
+  ]
+ },
+ "logistics": {
+  "us.priority.2": [
+   "1. USA, 2. Chine, 3. Europe",
+   "1. USA, 2. Europe, 3. Chine",
+   "1. Chine, 2. USA, 3. Europe",
+   "1. Europe, 2. USA, 3. Chine",
+   "1. Chine, 2. Europe, 3. USA",
+   "1. Europe, 2. Chine, 3. USA"
+  ],
+  "asia.priority.2": [
+   "1. USA, 2. Chine, 3. Europe",
+   "1. USA, 2. Europe, 3. Chine",
+   "1. Chine, 2. USA, 3. Europe",
+   "1. Europe, 2. USA, 3. Chine",
+   "1. Chine, 2. Europe, 3. USA",
+   "1. Europe, 2. Chine, 3. USA"
+  ],
+  "asia.priority.3": [
+   "1. USA, 2. Chine, 3. Europe",
+   "1. USA, 2. Europe, 3. Chine",
+   "1. Chine, 2. USA, 3. Europe",
+   "1. Europe, 2. USA, 3. Chine",
+   "1. Chine, 2. Europe, 3. USA",
+   "1. Europe, 2. Chine, 3. USA"
+  ]
+ },
+ "tax": {
+  "transfer.us.to.asia": "saisie",
+  "transfer.us.to.eu": "saisie",
+  "transfer.asia.to.us": "saisie",
+  "transfer.asia.to.eu": "saisie"
+ },
+ "finance": {
+  "long.debt": "saisie",
+  "share.issue": "saisie",
+  "dividends": "saisie",
+  "cash.us.to.asia": "saisie",
+  "cash.us.to.eu": "saisie"
+ },
+ "decisionchecklist": {}
+}

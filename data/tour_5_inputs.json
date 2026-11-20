@@ -1,0 +1,129 @@
+{
+ "growth": {
+  "USA": 0.02,
+  "Chine": 0.1,
+  "Europe": -0.03
+ },
+ "fx": {
+  "USA": 1.0,
+  "Chine": 0.1419,
+  "Europe": 1.2703
+ },
+ "mc": {
+  "USA|Thermique": 12200,
+  "Chine|Thermique": 10114,
+  "Europe|Thermique": 11300,
+  "USA|Hybride": 21000,
+  "Chine|Hybride": 19400,
+  "Europe|Hybride": 21300
+ },
+ "max_feat": {
+  "Thermique": 8,
+  "Hybride": 7
+ },
+ "adv_mult": 1.0,
+ "price_up": 0.18,
+ "price_down": 0.12,
+ "feat_down": 1,
+ "adv_max": 1500,
+ "our_state": {
+  "cert1": 0.0
+ },
+ "behaviours": [
+  "statu quo",
+  "tendance",
+  "guerre des prix",
+  "montée en gamme",
+  "meilleure réponse",
+  "mélange"
+ ],
+ "production": {
+  "sources": {
+   "stock Chine T": {
+    "zone": "Chine",
+    "tech": "Thermique",
+    "cost": 9500,
+    "cap": 194
+   },
+   "stock Chine H": {
+    "zone": "Chine",
+    "tech": "Hybride",
+    "cost": 18000,
+    "cap": 74
+   },
+   "usine Chine T": {
+    "zone": "Chine",
+    "tech": "Thermique",
+    "cost": 10114,
+    "cap": 1250,
+    "pool": "usine Chine"
+   },
+   "usine Chine H": {
+    "zone": "Chine",
+    "tech": "Hybride",
+    "cost": 19400,
+    "cap": 1250,
+    "pool": "usine Chine"
+   },
+   "usine USA T": {
+    "zone": "USA",
+    "tech": "Thermique",
+    "cost": 12227,
+    "cap": 1800,
+    "pool": "usine USA"
+   },
+   "usine USA H": {
+    "zone": "USA",
+    "tech": "Hybride",
+    "cost": 21286,
+    "cap": 1800,
+    "pool": "usine USA"
+   },
+   "sous-traitance Chine T": {
+    "zone": "Chine",
+    "tech": "Thermique",
+    "cost": 12112,
+    "cap": 484,
+    "pool": "st Chine"
+   },
+   "sous-traitance Chine H": {
+    "zone": "Chine",
+    "tech": "Hybride",
+    "cost": 18030,
+    "cap": 484,
+    "pool": "st Chine"
+   },
+   "sous-traitance USA T": {
+    "zone": "USA",
+    "tech": "Thermique",
+    "cost": 13107,
+    "cap": 167,
+    "pool": "st USA"
+   },
+   "sous-traitance USA H": {
+    "zone": "USA",
+    "tech": "Hybride",
+    "cost": 20324,
+    "cap": 167,
+    "pool": "st USA"
+   }
+  },
+  "pools": {
+   "usine Chine": 1190,
+   "usine USA": 1700,
+   "st Chine": 484,
+   "st USA": 167
+  },
+  "transport": {
+   "Chine>USA|Thermique": 1117,
+   "Chine>Europe|Thermique": 1200,
+   "USA>Chine|Thermique": 3970,
+   "USA>Europe|Thermique": 4290,
+   "Chine>USA|Hybride": 1716,
+   "Chine>Europe|Hybride": 1900,
+   "USA>Chine|Hybride": 6200,
+   "USA>Europe|Hybride": 6830
+  }
+ },
+ "carry_weight": 0.5
+}
