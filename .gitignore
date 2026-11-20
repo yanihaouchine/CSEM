@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# identifiants et session de la plateforme
+identifiant.md
+data/.cookies.pkl
+
+# exports bruts (seuls les round_N.json sont suivis)
+data/raw/*.html
+data/raw/*.xls
+
+# supports du cours, forums et pages de la plateforme
+data/docs/*
+!data/docs/champs_tour_*.json
+
+# sauvegardes et caches de la zone personnelle
+data/decisions_*
+data/zone_*
+data/oracle_cache_*
+
+# sorties intermédiaires
+out/*.log
+out/*.pkl
+out/*_run*.txt
+out/rejeu_*
+out/backtest_*
+out/nonregression_*
