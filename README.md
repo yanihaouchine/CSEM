@@ -10,6 +10,8 @@ Le dépôt contient trois choses :
 
 Ce que l'on a appris du jeu lui-même (demande, technologies, coûts, ESG, cours de l'action) est consigné dans [`docs/comportement.md`](docs/comportement.md), avec un niveau de preuve pour chaque affirmation.
 
+Le code a été écrit avec Claude Code. Ma part : le choix de l'objectif, les hypothèses à tester, la règle de validation par rejeu avant toute décision, et les arbitrages à chaque tour.
+
 ## Ce que l'on cherche à maximiser
 
 Le classement de la session n'est pas le retour aux actionnaires affiché par la plateforme, mais un barème de l'instructeur : à chaque tour, les équipes sont rangées sur une vingtaine de critères (ROE, marges opérationnelles et parts de marché par zone, coûts unitaires, stocks, demande non servie, scores ESG, certification…) et reçoivent de 1 à 12 points par critère. Seul le rang compte, et tous les critères pèsent autant.
