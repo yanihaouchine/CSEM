@@ -1,0 +1,214 @@
+{
+ "point": "±3 % ajusté",
+ "strategy": {
+  "USA|Thermique": [
+   22600.0,
+   5.0,
+   1000.0
+  ],
+  "USA|Hybride": [
+   40800.0,
+   8.0,
+   450.0
+  ],
+  "Chine|Thermique": [
+   143000.0,
+   6.0,
+   650.0
+  ],
+  "Chine|Hybride": [
+   248000.0,
+   8.0,
+   400.0
+  ],
+  "Europe|Thermique": [
+   26200.0,
+   7.0,
+   1150.0
+  ],
+  "Europe|Hybride": [
+   39900.0,
+   7.0,
+   450.0
+  ]
+ },
+ "shares": {
+  "USA|Thermique": 3.6,
+  "USA|Hybride": 2.9,
+  "Chine|Thermique": 3.8,
+  "Chine|Hybride": 3.7,
+  "Europe|Thermique": 3.4,
+  "Europe|Hybride": 2.9
+ },
+ "demand": {
+  "USA|Thermique": {
+   "moy": 340,
+   "p10": 252,
+   "p75": 385,
+   "p90": 446
+  },
+  "USA|Hybride": {
+   "moy": 280,
+   "p10": 221,
+   "p75": 301,
+   "p90": 358
+  },
+  "Chine|Thermique": {
+   "moy": 383,
+   "p10": 273,
+   "p75": 426,
+   "p90": 518
+  },
+  "Chine|Hybride": {
+   "moy": 372,
+   "p10": 291,
+   "p75": 409,
+   "p90": 460
+  },
+  "Europe|Thermique": {
+   "moy": 479,
+   "p10": 380,
+   "p75": 531,
+   "p90": 594
+  },
+  "Europe|Hybride": {
+   "moy": 403,
+   "p10": 318,
+   "p75": 441,
+   "p90": 490
+  }
+ },
+ "production": {
+  "sous-traitance Chine H": 541.0,
+  "stock Chine H": 56.0,
+  "usine Chine H": 253.0,
+  "usine Chine T": 957.0,
+  "usine USA H": 301.0,
+  "usine USA T": 385.0
+ },
+ "flows": [
+  {
+   "source": "stock Chine H",
+   "cellule": "Europe|Hybride",
+   "k_unites": 56.0
+  },
+  {
+   "source": "usine Chine T",
+   "cellule": "Chine|Thermique",
+   "k_unites": 426.0
+  },
+  {
+   "source": "usine Chine T",
+   "cellule": "Europe|Thermique",
+   "k_unites": 531.0
+  },
+  {
+   "source": "usine Chine H",
+   "cellule": "Europe|Hybride",
+   "k_unites": 253.0
+  },
+  {
+   "source": "usine USA T",
+   "cellule": "USA|Thermique",
+   "k_unites": 385.0
+  },
+  {
+   "source": "usine USA H",
+   "cellule": "USA|Hybride",
+   "k_unites": 301.0
+  },
+  {
+   "source": "sous-traitance Chine H",
+   "cellule": "Chine|Hybride",
+   "k_unites": 409.0
+  },
+  {
+   "source": "sous-traitance Chine H",
+   "cellule": "Europe|Hybride",
+   "k_unites": 132.0
+  }
+ ],
+ "gains": {
+  "moteur tel quel": {
+   "reconduit": 0.0,
+   "±3 %": 781.0,
+   "±6 %": 1147.0,
+   "±10 %": 1592.0,
+   "±15 %": 2045.0,
+   "±20 %": 2370.0,
+   "±30 %": 2947.0,
+   "bornes larges": 9084.0,
+   "±3 % ajusté": 699.0
+  },
+  "clients 30 % plus sensibles au prix": {
+   "reconduit": 0.0,
+   "±3 %": 54.0,
+   "±6 %": -75.0,
+   "±10 %": -196.0,
+   "±15 %": -349.0,
+   "±20 %": -404.0,
+   "±30 %": -262.0,
+   "bornes larges": 316.0,
+   "±3 % ajusté": 25.0
+  },
+  "marchés 15 % plus petits": {
+   "reconduit": 0.0,
+   "±3 %": 631.0,
+   "±6 %": 917.0,
+   "±10 %": 1244.0,
+   "±15 %": 1570.0,
+   "±20 %": 1785.0,
+   "±30 %": 2195.0,
+   "bornes larges": 6580.0,
+   "±3 % ajusté": 565.0
+  },
+  "pire monde": {
+   "reconduit": 0.0,
+   "±3 %": 54.0,
+   "±6 %": -75.0,
+   "±10 %": -196.0,
+   "±15 %": -349.0,
+   "±20 %": -404.0,
+   "±30 %": -262.0,
+   "bornes larges": 316.0,
+   "±3 % ajusté": 25.0
+  }
+ },
+ "decisions": {
+  "area1.tech1.price": 22600,
+  "area1.tech1.feat": 5,
+  "area1.tech1.adv": 1000000,
+  "area1.tech1.share.est": 3.6,
+  "area1.tech2.price": 40800,
+  "area1.tech2.feat": 8,
+  "area1.tech2.adv": 450000,
+  "area1.tech2.share.est": 2.9,
+  "area2.tech1.price": 143000,
+  "area2.tech1.feat": 6,
+  "area2.tech1.adv": 650000,
+  "area2.tech1.share.est": 3.8,
+  "area2.tech2.price": 248000,
+  "area2.tech2.feat": 8,
+  "area2.tech2.adv": 400000,
+  "area2.tech2.share.est": 3.7,
+  "area3.tech1.price": 26200,
+  "area3.tech1.feat": 7,
+  "area3.tech1.adv": 1150000,
+  "area3.tech1.share.est": 3.4,
+  "area3.tech2.price": 39900,
+  "area3.tech2.feat": 7,
+  "area3.tech2.adv": 450000,
+  "area3.tech2.share.est": 2.9,
+  "us.growth.prediction": 1.0,
+  "asia.growth.prediction": 6.0,
+  "eu.growth.prediction": 6.0,
+  "us.production1": 21.4,
+  "us.production2": 16.8,
+  "asia.production1": 76.6,
+  "asia.production2": 20.3,
+  "us.outsource1": 0,
+  "us.outsource2": 0,
+  "asia.outsource1": 0,
+  "asia.outsource2": 541
+ }
+}

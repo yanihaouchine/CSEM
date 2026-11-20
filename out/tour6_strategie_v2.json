@@ -1,0 +1,316 @@
+{
+ "point": "enregistré à 16h30",
+ "bump": 0.08,
+ "strategy": {
+  "USA|Thermique": [
+   22600.0,
+   5.0,
+   1000.0
+  ],
+  "USA|Hybride": [
+   40800.0,
+   8.0,
+   450.0
+  ],
+  "Chine|Thermique": [
+   143000.0,
+   6.0,
+   650.0
+  ],
+  "Chine|Hybride": [
+   248000.0,
+   8.0,
+   400.0
+  ],
+  "Europe|Thermique": [
+   26200.0,
+   7.0,
+   1150.0
+  ],
+  "Europe|Hybride": [
+   39900.0,
+   7.0,
+   450.0
+  ]
+ },
+ "shares": {
+  "USA|Thermique": 3.9,
+  "USA|Hybride": 3.2,
+  "Chine|Thermique": 4.1,
+  "Chine|Hybride": 4.0,
+  "Europe|Thermique": 3.8,
+  "Europe|Hybride": 3.2
+ },
+ "demand": {
+  "USA|Thermique": {
+   "moy": 368,
+   "p10": 269,
+   "p75": 419,
+   "p90": 489
+  },
+  "USA|Hybride": {
+   "moy": 304,
+   "p10": 237,
+   "p75": 330,
+   "p90": 392
+  },
+  "Chine|Thermique": {
+   "moy": 410,
+   "p10": 291,
+   "p75": 459,
+   "p90": 578
+  },
+  "Chine|Hybride": {
+   "moy": 398,
+   "p10": 307,
+   "p75": 437,
+   "p90": 490
+  },
+  "Europe|Thermique": {
+   "moy": 531,
+   "p10": 415,
+   "p75": 591,
+   "p90": 662
+  },
+  "Europe|Hybride": {
+   "moy": 447,
+   "p10": 352,
+   "p75": 488,
+   "p90": 538
+  }
+ },
+ "production": {
+  "sous-traitance Chine H": 546.0,
+  "stock Chine H": 56.0,
+  "usine Chine H": 323.0,
+  "usine Chine T": 887.0,
+  "usine USA H": 330.0,
+  "usine USA T": 582.0
+ },
+ "gains": {
+  "moteur tel quel": {
+   "reconduit": -787.0,
+   "±3 %": 118.0,
+   "±6 %": 542.0,
+   "±10 %": 1043.0,
+   "enregistré à 16h30": 0.0
+  },
+  "clients 30 % plus sensibles au prix": {
+   "reconduit": -48.0,
+   "±3 %": 18.0,
+   "±6 %": -173.0,
+   "±10 %": -301.0,
+   "enregistré à 16h30": 0.0
+  },
+  "marchés 15 % plus petits": {
+   "reconduit": -639.0,
+   "±3 %": 88.0,
+   "±6 %": 395.0,
+   "±10 %": 794.0,
+   "enregistré à 16h30": 0.0
+  },
+  "pire monde": {
+   "reconduit": -787.0,
+   "±3 %": 18.0,
+   "±6 %": -173.0,
+   "±10 %": -301.0,
+   "enregistré à 16h30": 0.0
+  }
+ },
+ "decisions": {
+  "area1.tech1.price": 22600,
+  "area1.tech1.feat": 5,
+  "area1.tech1.adv": 1000000,
+  "area1.tech1.share.est": 3.9,
+  "area1.tech2.price": 40800,
+  "area1.tech2.feat": 8,
+  "area1.tech2.adv": 450000,
+  "area1.tech2.share.est": 3.2,
+  "area2.tech1.price": 143000,
+  "area2.tech1.feat": 6,
+  "area2.tech1.adv": 650000,
+  "area2.tech1.share.est": 4.1,
+  "area2.tech2.price": 248000,
+  "area2.tech2.feat": 8,
+  "area2.tech2.adv": 400000,
+  "area2.tech2.share.est": 4.0,
+  "area3.tech1.price": 26200,
+  "area3.tech1.feat": 7,
+  "area3.tech1.adv": 1150000,
+  "area3.tech1.share.est": 3.8,
+  "area3.tech2.price": 39900,
+  "area3.tech2.feat": 7,
+  "area3.tech2.adv": 450000,
+  "area3.tech2.share.est": 3.2,
+  "us.production1": 32.4,
+  "us.production2": 18.4,
+  "asia.production1": 71.0,
+  "asia.production2": 25.9,
+  "us.outsource1": 0,
+  "us.outsource2": 0,
+  "asia.outsource1": 0,
+  "asia.outsource2": 546
+ },
+ "candidats": {
+  "reconduit": [
+   [
+    22000.0,
+    5.0,
+    1100.0
+   ],
+   [
+    39700.0,
+    7.0,
+    400.0
+   ],
+   [
+    139000.0,
+    6.0,
+    650.0
+   ],
+   [
+    243000.0,
+    7.0,
+    350.0
+   ],
+   [
+    25500.0,
+    7.0,
+    1050.0
+   ],
+   [
+    38800.0,
+    7.0,
+    400.0
+   ]
+  ],
+  "±3 %": [
+   [
+    22660.0,
+    4.0,
+    1009.1743119266055
+   ],
+   [
+    40891.0,
+    8.0,
+    436.00000000000006
+   ],
+   [
+    142000.0,
+    6.0,
+    700.0
+   ],
+   [
+    248000.0,
+    8.0,
+    381.5
+   ],
+   [
+    26200.0,
+    5.0,
+    1144.5
+   ],
+   [
+    39964.0,
+    7.0,
+    436.00000000000006
+   ]
+  ],
+  "±6 %": [
+   [
+    23300.0,
+    5.0,
+    1150.0
+   ],
+   [
+    42082.0,
+    8.0,
+    450.0
+   ],
+   [
+    146000.0,
+    6.0,
+    750.0
+   ],
+   [
+    245000.0,
+    8.0,
+    400.0
+   ],
+   [
+    27000.0,
+    5.0,
+    1239.0
+   ],
+   [
+    41100.0,
+    8.0,
+    450.0
+   ]
+  ],
+  "±10 %": [
+   [
+    24100.0,
+    5.0,
+    950.0
+   ],
+   [
+    43500.0,
+    8.0,
+    500.0
+   ],
+   [
+    144000.0,
+    6.0,
+    800.0
+   ],
+   [
+    248000.0,
+    8.0,
+    450.0
+   ],
+   [
+    28000.0,
+    6.0,
+    1350.0
+   ],
+   [
+    42500.0,
+    8.0,
+    500.0
+   ]
+  ],
+  "enregistré à 16h30": [
+   [
+    22600.0,
+    5.0,
+    1000.0
+   ],
+   [
+    40800.0,
+    8.0,
+    450.0
+   ],
+   [
+    143000.0,
+    6.0,
+    650.0
+   ],
+   [
+    248000.0,
+    8.0,
+    400.0
+   ],
+   [
+    26200.0,
+    7.0,
+    1150.0
+   ],
+   [
+    39900.0,
+    7.0,
+    450.0
+   ]
+  ]
+ }
+}

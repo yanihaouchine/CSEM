@@ -1,0 +1,77 @@
+{
+ "base": {
+  "ca": 86019987,
+  "ebitda": 31381787,
+  "ebit": 30648955,
+  "net": 27030691,
+  "net_usa": 4786099,
+  "net_chine": 11197112,
+  "net_europe": 11047481,
+  "previsionnel": {
+   "zones": {
+    "USA": {
+     "ventes": 23765493.0,
+     "internes": 0.0,
+     "ca": 23765493.0,
+     "fixes": 2973327.0,
+     "ebit": 4867359.0,
+     "net": 4786099.0
+    },
+    "Chine": {
+     "ventes": 34445349.0,
+     "internes": 14782159.0,
+     "ca": 49227508.0,
+     "fixes": 886636.0,
+     "ebit": 11967632.0,
+     "net": 11197112.0
+    },
+    "Europe": {
+     "ventes": 27809145.0,
+     "internes": 0.0,
+     "ca": 27809145.0,
+     "fixes": 20000.0,
+     "ebit": 13813964.0,
+     "net": 11047481.0
+    }
+   },
+   "tresorerie": {
+    "USA": 45782701.0,
+    "Chine": 83665144.0,
+    "Europe": 13363453.0
+   },
+   "fp": 153267998.0,
+   "dette_lt": 0.0,
+   "decouvert": 0.0,
+   "roe": 19.3,
+   "bpa": 16.63
+  },
+  "dette_ct_nouvelle": [
+   0.0
+  ],
+  "tresorerie_fin": [
+   45782701.0
+  ],
+  "fournisseurs_requis": 2.0,
+  "fournisseurs_actifs": 2,
+  "cout_composant": 975.0,
+  "stock_final_Thermique": 0.0,
+  "non_servi_Thermique": 0.0,
+  "stock_final_Hybride": 83.0,
+  "non_servi_Hybride": 0.0,
+  "stock_final_Électrique": 52.0,
+  "non_servi_Électrique": 0.0,
+  "stock_final_Hydrogène": 0.0,
+  "non_servi_Hydrogène": 0.0,
+  "score_esg": 2.96,
+  "jours_homme_libres": 0.0
+ },
+ "collab": {
+  "refus": "esg2.employee.relations = Collaboration syndicale refusé par la plateforme : L'autre partie exige que vous atteigniez un score ESG de 3,0 ou plus pour négocier tout type de coopération avancée."
+ },
+ "partenariat": {
+  "refus": "esg2.labor.regulations = Partenariat stratégique refusé par la plateforme : L'autre partie exige que vous atteigniez un score ESG de 3,0 ou plus pour négocier tout type de coopération avancée."
+ },
+ "les deux": {
+  "refus": "esg2.labor.regulations = Partenariat stratégique refusé par la plateforme : L'autre partie exige que vous atteigniez un score ESG de 3,0 ou plus pour négocier tout type de coopération avancée."
+ }
+}

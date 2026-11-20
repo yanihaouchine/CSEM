@@ -1,0 +1,463 @@
+{
+ "note": "prévisions de notre demande du tour 7 (k unités : P10, médiane, P90), faites AVANT la publication des résultats ; nombre de concurrents entrant sur l'Électrique dans chaque zone = hypothèse",
+ "v1": {
+  "fait_le": "2026-11-20 09:10",
+  "code": "calage corrigé, strategy généralisé",
+  "previsions": {
+   "mixte, 0 entrants": {
+    "USA|Hybride": [
+     159,
+     201,
+     249
+    ],
+    "USA|Électrique": [
+     795,
+     936,
+     1130
+    ],
+    "Chine|Hybride": [
+     224,
+     312,
+     394
+    ],
+    "Chine|Électrique": [
+     253,
+     412,
+     553
+    ],
+    "Europe|Hybride": [
+     323,
+     380,
+     470
+    ],
+    "Europe|Électrique": [
+     166,
+     216,
+     307
+    ]
+   },
+   "mixte, 4 entrants": {
+    "USA|Hybride": [
+     148,
+     191,
+     246
+    ],
+    "USA|Électrique": [
+     123,
+     164,
+     220
+    ],
+    "Chine|Hybride": [
+     217,
+     269,
+     387
+    ],
+    "Chine|Électrique": [
+     214,
+     292,
+     396
+    ],
+    "Europe|Hybride": [
+     301,
+     372,
+     463
+    ],
+    "Europe|Électrique": [
+     142,
+     195,
+     255
+    ]
+   },
+   "mixte, 8 entrants": {
+    "USA|Hybride": [
+     148,
+     176,
+     242
+    ],
+    "USA|Électrique": [
+     89,
+     118,
+     157
+    ],
+    "Chine|Hybride": [
+     212,
+     304,
+     406
+    ],
+    "Chine|Électrique": [
+     203,
+     282,
+     397
+    ],
+    "Europe|Hybride": [
+     325,
+     374,
+     483
+    ],
+    "Europe|Électrique": [
+     134,
+     187,
+     257
+    ]
+   },
+   "mixte, 10 entrants": {
+    "USA|Hybride": [
+     145,
+     175,
+     235
+    ],
+    "USA|Électrique": [
+     87,
+     113,
+     148
+    ],
+    "Chine|Hybride": [
+     215,
+     279,
+     386
+    ],
+    "Chine|Électrique": [
+     210,
+     291,
+     378
+    ],
+    "Europe|Hybride": [
+     299,
+     372,
+     520
+    ],
+    "Europe|Électrique": [
+     128,
+     179,
+     252
+    ]
+   },
+   "directe, 0 entrants": {
+    "USA|Hybride": [
+     129,
+     161,
+     213
+    ],
+    "USA|Électrique": [
+     790,
+     926,
+     1070
+    ],
+    "Chine|Hybride": [
+     175,
+     211,
+     304
+    ],
+    "Chine|Électrique": [
+     190,
+     254,
+     319
+    ],
+    "Europe|Hybride": [
+     270,
+     343,
+     435
+    ],
+    "Europe|Électrique": [
+     155,
+     185,
+     246
+    ]
+   },
+   "directe, 4 entrants": {
+    "USA|Hybride": [
+     133,
+     163,
+     222
+    ],
+    "USA|Électrique": [
+     121,
+     160,
+     210
+    ],
+    "Chine|Hybride": [
+     175,
+     223,
+     290
+    ],
+    "Chine|Électrique": [
+     174,
+     216,
+     272
+    ],
+    "Europe|Hybride": [
+     277,
+     344,
+     421
+    ],
+    "Europe|Électrique": [
+     140,
+     171,
+     219
+    ]
+   },
+   "directe, 8 entrants": {
+    "USA|Hybride": [
+     120,
+     157,
+     213
+    ],
+    "USA|Électrique": [
+     89,
+     117,
+     158
+    ],
+    "Chine|Hybride": [
+     171,
+     215,
+     287
+    ],
+    "Chine|Électrique": [
+     164,
+     200,
+     271
+    ],
+    "Europe|Hybride": [
+     279,
+     337,
+     415
+    ],
+    "Europe|Électrique": [
+     138,
+     179,
+     234
+    ]
+   },
+   "directe, 10 entrants": {
+    "USA|Hybride": [
+     122,
+     154,
+     202
+    ],
+    "USA|Électrique": [
+     84,
+     112,
+     137
+    ],
+    "Chine|Hybride": [
+     152,
+     219,
+     293
+    ],
+    "Chine|Électrique": [
+     169,
+     198,
+     254
+    ],
+    "Europe|Hybride": [
+     260,
+     347,
+     428
+    ],
+    "Europe|Électrique": [
+     137,
+     165,
+     235
+    ]
+   }
+  }
+ },
+ "v2": {
+  "fait_le": "2026-11-20 09:26",
+  "code": "+ analogie entre zones pour les cellules nouvelles, incertitude des cellules jeunes (SD_YOUNG 0,6)",
+  "previsions": {
+   "mixte, 4 entrants": {
+    "USA|Hybride": [
+     135,
+     179,
+     248
+    ],
+    "USA|Électrique": [
+     62,
+     111,
+     212
+    ],
+    "Chine|Hybride": [
+     213,
+     295,
+     372
+    ],
+    "Chine|Électrique": [
+     133,
+     309,
+     738
+    ],
+    "Europe|Hybride": [
+     297,
+     369,
+     468
+    ],
+    "Europe|Électrique": [
+     70,
+     177,
+     473
+    ]
+   },
+   "mixte, 8 entrants": {
+    "USA|Hybride": [
+     141,
+     178,
+     246
+    ],
+    "USA|Électrique": [
+     38,
+     99,
+     226
+    ],
+    "Chine|Hybride": [
+     218,
+     294,
+     409
+    ],
+    "Chine|Électrique": [
+     133,
+     249,
+     604
+    ],
+    "Europe|Hybride": [
+     324,
+     384,
+     455
+    ],
+    "Europe|Électrique": [
+     82,
+     200,
+     506
+    ]
+   },
+   "mixte, 10 entrants": {
+    "USA|Hybride": [
+     140,
+     179,
+     224
+    ],
+    "USA|Électrique": [
+     41,
+     88,
+     177
+    ],
+    "Chine|Hybride": [
+     229,
+     280,
+     376
+    ],
+    "Chine|Électrique": [
+     126,
+     256,
+     668
+    ],
+    "Europe|Hybride": [
+     317,
+     372,
+     435
+    ],
+    "Europe|Électrique": [
+     79,
+     181,
+     434
+    ]
+   },
+   "directe, 4 entrants": {
+    "USA|Hybride": [
+     117,
+     152,
+     208
+    ],
+    "USA|Électrique": [
+     46,
+     98,
+     227
+    ],
+    "Chine|Hybride": [
+     163,
+     212,
+     292
+    ],
+    "Chine|Électrique": [
+     110,
+     231,
+     435
+    ],
+    "Europe|Hybride": [
+     265,
+     327,
+     408
+    ],
+    "Europe|Électrique": [
+     81,
+     189,
+     439
+    ]
+   },
+   "directe, 8 entrants": {
+    "USA|Hybride": [
+     128,
+     158,
+     221
+    ],
+    "USA|Électrique": [
+     49,
+     87,
+     211
+    ],
+    "Chine|Hybride": [
+     170,
+     221,
+     277
+    ],
+    "Chine|Électrique": [
+     78,
+     191,
+     418
+    ],
+    "Europe|Hybride": [
+     266,
+     335,
+     416
+    ],
+    "Europe|Électrique": [
+     78,
+     157,
+     381
+    ]
+   },
+   "directe, 10 entrants": {
+    "USA|Hybride": [
+     113,
+     157,
+     202
+    ],
+    "USA|Électrique": [
+     44,
+     90,
+     177
+    ],
+    "Chine|Hybride": [
+     166,
+     222,
+     298
+    ],
+    "Chine|Électrique": [
+     94,
+     213,
+     452
+    ],
+    "Europe|Hybride": [
+     265,
+     333,
+     414
+    ],
+    "Europe|Électrique": [
+     92,
+     217,
+     334
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,355 @@
+{
+ "base": {
+  "ca": 62567375,
+  "ebitda": 18045870,
+  "ebit": 17070169,
+  "net": 14874241,
+  "net_usa": 1293271,
+  "net_chine": 5272871,
+  "net_europe": 8308099,
+  "dette_ct_nouvelle": [
+   0.0
+  ],
+  "tresorerie_fin": [
+   24319550.0
+  ],
+  "fournisseurs_requis": 3.0,
+  "fournisseurs_actifs": 3,
+  "cout_composant": 875.0,
+  "stock_final_Thermique": 31.0,
+  "non_servi_Thermique": 0.0,
+  "stock_final_Hybride": 23.0,
+  "non_servi_Hybride": 0.0,
+  "stock_final_Électrique": 91.0,
+  "non_servi_Électrique": 0.0,
+  "stock_final_Hydrogène": 0.0,
+  "non_servi_Hydrogène": 0.0,
+  "score_esg": 3.1,
+  "jours_homme_libres": 0.0
+ },
+ "tests": {
+  "politique : partenariat stratégique": {
+   "ca": 62567375,
+   "ebitda": 15470556,
+   "ebit": 14494855,
+   "net": 12833431,
+   "net_usa": 666832,
+   "net_chine": 4616427,
+   "net_europe": 7550171,
+   "dette_ct_nouvelle": [
+    0.0
+   ],
+   "tresorerie_fin": [
+    23709437.0
+   ],
+   "fournisseurs_requis": 3.0,
+   "fournisseurs_actifs": 3,
+   "cout_composant": 875.0,
+   "stock_final_Thermique": 31.0,
+   "non_servi_Thermique": 0.0,
+   "stock_final_Hybride": 23.0,
+   "non_servi_Hybride": 0.0,
+   "stock_final_Électrique": 91.0,
+   "non_servi_Électrique": 0.0,
+   "stock_final_Hydrogène": 0.0,
+   "non_servi_Hydrogène": 0.0,
+   "score_esg": 3.1,
+   "jours_homme_libres": 150000.0
+  },
+  "événement appro : continuer l'actuel": {
+   "ca": 62567375,
+   "ebitda": 19272210,
+   "ebit": 18296509,
+   "net": 15846055,
+   "net_usa": 1591575,
+   "net_chine": 5585463,
+   "net_europe": 8669017,
+   "dette_ct_nouvelle": [
+    0.0
+   ],
+   "tresorerie_fin": [
+    24610080.0
+   ],
+   "fournisseurs_requis": 3.0,
+   "fournisseurs_actifs": 3,
+   "cout_composant": 875.0,
+   "stock_final_Thermique": 31.0,
+   "non_servi_Thermique": 0.0,
+   "stock_final_Hybride": 23.0,
+   "non_servi_Hybride": 0.0,
+   "stock_final_Électrique": 91.0,
+   "non_servi_Électrique": 0.0,
+   "stock_final_Hydrogène": 0.0,
+   "non_servi_Hydrogène": 0.0,
+   "score_esg": 3.1,
+   "jours_homme_libres": 0.0
+  },
+  "événement appro : engagement total": {
+   "ca": 62349235,
+   "ebitda": 19130165,
+   "ebit": 18154465,
+   "net": 15756046,
+   "net_usa": 1559197,
+   "net_chine": 5534152,
+   "net_europe": 8662697,
+   "dette_ct_nouvelle": [
+    0.0
+   ],
+   "tresorerie_fin": [
+    24569546.0
+   ],
+   "fournisseurs_requis": 3.0,
+   "fournisseurs_actifs": 3,
+   "cout_composant": 875.0,
+   "stock_final_Thermique": 31.0,
+   "non_servi_Thermique": 0.0,
+   "stock_final_Hybride": 0.0,
+   "non_servi_Hybride": 6.0,
+   "stock_final_Électrique": 59.0,
+   "non_servi_Électrique": 0.0,
+   "stock_final_Hydrogène": 0.0,
+   "non_servi_Hydrogène": 0.0,
+   "score_esg": 3.1,
+   "jours_homme_libres": 0.0
+  },
+  "batteries : co-développer": {
+   "refus": "esg.battery.bargaining = Co-développer les batteries refusé par la plateforme : Vous n'avez plus de jours-homme disponibles."
+  },
+  "batteries : sous-traiter": {
+   "ca": 62567375,
+   "ebitda": 16780623,
+   "ebit": 15804922,
+   "net": 13871590,
+   "net_usa": 985348,
+   "net_chine": 4950307,
+   "net_europe": 7935935,
+   "dette_ct_nouvelle": [
+    0.0
+   ],
+   "tresorerie_fin": [
+    24019642.0
+   ],
+   "fournisseurs_requis": 3.0,
+   "fournisseurs_actifs": 3,
+   "cout_composant": 875.0,
+   "stock_final_Thermique": 31.0,
+   "non_servi_Thermique": 0.0,
+   "stock_final_Hybride": 23.0,
+   "non_servi_Hybride": 0.0,
+   "stock_final_Électrique": 91.0,
+   "non_servi_Électrique": 0.0,
+   "stock_final_Hydrogène": 0.0,
+   "non_servi_Hydrogène": 0.0,
+   "score_esg": 3.1,
+   "jours_homme_libres": 0.0
+  },
+  "processus : énergie": {
+   "ca": 59934881,
+   "ebitda": 16869342,
+   "ebit": 15893641,
+   "net": 13999377,
+   "net_usa": 996395,
+   "net_chine": 4780433,
+   "net_europe": 8222549,
+   "dette_ct_nouvelle": [
+    0.0
+   ],
+   "tresorerie_fin": [
+    23925417.0
+   ],
+   "fournisseurs_requis": 3.0,
+   "fournisseurs_actifs": 3,
+   "cout_composant": 875.0,
+   "stock_final_Thermique": 31.0,
+   "non_servi_Thermique": 0.0,
+   "stock_final_Hybride": 0.0,
+   "non_servi_Hybride": 65.0,
+   "stock_final_Électrique": 0.0,
+   "non_servi_Électrique": 5.0,
+   "stock_final_Hydrogène": 0.0,
+   "non_servi_Hydrogène": 0.0,
+   "score_esg": 3.1,
+   "jours_homme_libres": 0.0
+  },
+  "processus : CO2": {
+   "ca": 57095987,
+   "ebitda": 15809538,
+   "ebit": 14833837,
+   "net": 13154555,
+   "net_usa": 449886,
+   "net_chine": 4554138,
+   "net_europe": 8150531,
+   "dette_ct_nouvelle": [
+    0.0
+   ],
+   "tresorerie_fin": [
+    23478000.0
+   ],
+   "fournisseurs_requis": 3.0,
+   "fournisseurs_actifs": 3,
+   "cout_composant": 875.0,
+   "stock_final_Thermique": 31.0,
+   "non_servi_Thermique": 0.0,
+   "stock_final_Hybride": 0.0,
+   "non_servi_Hybride": 94.0,
+   "stock_final_Électrique": 0.0,
+   "non_servi_Électrique": 37.0,
+   "stock_final_Hydrogène": 0.0,
+   "non_servi_Hydrogène": 0.0,
+   "score_esg": 3.1,
+   "jours_homme_libres": 0.0
+  },
+  "processus : eau": {
+   "ca": 62567375,
+   "ebitda": 17854929,
+   "ebit": 16879228,
+   "net": 14721329,
+   "net_usa": 1251269,
+   "net_chine": 5219624,
+   "net_europe": 8250436,
+   "dette_ct_nouvelle": [
+    0.0
+   ],
+   "tresorerie_fin": [
+    24197281.0
+   ],
+   "fournisseurs_requis": 3.0,
+   "fournisseurs_actifs": 3,
+   "cout_composant": 875.0,
+   "stock_final_Thermique": 31.0,
+   "non_servi_Thermique": 0.0,
+   "stock_final_Hybride": 23.0,
+   "non_servi_Hybride": 0.0,
+   "stock_final_Électrique": 91.0,
+   "non_servi_Électrique": 0.0,
+   "stock_final_Hydrogène": 0.0,
+   "non_servi_Hydrogène": 0.0,
+   "score_esg": 3.1,
+   "jours_homme_libres": 0.0
+  },
+  "processus : énergie + CO2": {
+   "ca": 48579303,
+   "ebitda": 12747717,
+   "ebit": 11772016,
+   "net": 10437950,
+   "net_usa": -1349502,
+   "net_chine": 3868405,
+   "net_europe": 7919046,
+   "dette_ct_nouvelle": [
+    0.0
+   ],
+   "tresorerie_fin": [
+    21768381.0
+   ],
+   "fournisseurs_requis": 3.0,
+   "fournisseurs_actifs": 3,
+   "cout_composant": 875.0,
+   "stock_final_Thermique": 31.0,
+   "non_servi_Thermique": 0.0,
+   "stock_final_Hybride": 0.0,
+   "non_servi_Hybride": 183.0,
+   "stock_final_Électrique": 0.0,
+   "non_servi_Électrique": 133.0,
+   "stock_final_Hydrogène": 0.0,
+   "non_servi_Hydrogène": 0.0,
+   "score_esg": 3.1,
+   "jours_homme_libres": 0.0
+  },
+  "recyclabilité : cycle fermé": {
+   "ca": 62567375,
+   "ebitda": 16795717,
+   "ebit": 15820016,
+   "net": 13883556,
+   "net_usa": 989174,
+   "net_chine": 4954209,
+   "net_europe": 7940173,
+   "dette_ct_nouvelle": [
+    0.0
+   ],
+   "tresorerie_fin": [
+    24023379.0
+   ],
+   "fournisseurs_requis": 3.0,
+   "fournisseurs_actifs": 3,
+   "cout_composant": 875.0,
+   "stock_final_Thermique": 31.0,
+   "non_servi_Thermique": 0.0,
+   "stock_final_Hybride": 23.0,
+   "non_servi_Hybride": 0.0,
+   "stock_final_Électrique": 91.0,
+   "non_servi_Électrique": 0.0,
+   "stock_final_Hydrogène": 0.0,
+   "non_servi_Hydrogène": 0.0,
+   "score_esg": 3.1,
+   "jours_homme_libres": 0.0
+  },
+  "Hybride Europe : 8 équipements": {
+   "ca": 62567375,
+   "ebitda": 17796802,
+   "ebit": 16821101,
+   "net": 14676884,
+   "net_usa": 1293271,
+   "net_chine": 5272871,
+   "net_europe": 8110742,
+   "dette_ct_nouvelle": [
+    0.0
+   ],
+   "tresorerie_fin": [
+    24319550.0
+   ],
+   "fournisseurs_requis": 3.0,
+   "fournisseurs_actifs": 3,
+   "cout_composant": 875.0,
+   "stock_final_Thermique": 31.0,
+   "non_servi_Thermique": 0.0,
+   "stock_final_Hybride": 23.0,
+   "non_servi_Hybride": 0.0,
+   "stock_final_Électrique": 91.0,
+   "non_servi_Électrique": 0.0,
+   "stock_final_Hydrogène": 0.0,
+   "non_servi_Hydrogène": 0.0,
+   "score_esg": 3.1,
+   "jours_homme_libres": 0.0
+  },
+  "Électrique : publicité 1 000 partout": {
+   "ca": 62567375,
+   "ebitda": 16745870,
+   "ebit": 15770169,
+   "net": 13846927,
+   "net_usa": 969122,
+   "net_chine": 4886708,
+   "net_europe": 7991097,
+   "dette_ct_nouvelle": [
+    0.0
+   ],
+   "tresorerie_fin": [
+    23995401.0
+   ],
+   "fournisseurs_requis": 3.0,
+   "fournisseurs_actifs": 3,
+   "cout_composant": 875.0,
+   "stock_final_Thermique": 31.0,
+   "non_servi_Thermique": 0.0,
+   "stock_final_Hybride": 23.0,
+   "non_servi_Hybride": 0.0,
+   "stock_final_Électrique": 91.0,
+   "non_servi_Électrique": 0.0,
+   "stock_final_Hydrogène": 0.0,
+   "non_servi_Hydrogène": 0.0,
+   "score_esg": 3.1,
+   "jours_homme_libres": 0.0
+  }
+ },
+ "adj": {
+  "area1.tech3.share.est": 1.5,
+  "area2.tech3.share.est": 2.5,
+  "area3.tech3.share.est": 1.9,
+  "area1.tech2.share.est": 1.9,
+  "area2.tech2.share.est": 2.4,
+  "area3.tech2.share.est": 3.1,
+  "area2.tech3.price": 440000,
+  "asia.production1": 51.2,
+  "asia.production2": 32.0,
+  "us.production2": 10.6
+ }
+}

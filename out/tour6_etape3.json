@@ -1,0 +1,72 @@
+{
+ "final": {
+  "asia.outsource2": 541,
+  "esg.trn.basic": false,
+  "esg.trn.work.safety": false,
+  "esg.trn.personal.health": false,
+  "esg.trn.non.discrimination": false,
+  "esg.trn.ethics": true,
+  "esg2.management.quotas": "Programmes de mentorat",
+  "esg.water.invest": true,
+  "esg.recyclability.commit": true,
+  "long.debt": -4400000,
+  "rd.engineer.salary.1": 6300,
+  "rd.engineer.training.1": 2000
+ },
+ "etat": {
+  "ca": 74556216,
+  "ebitda": 22310278,
+  "ebit": 21240166,
+  "net": 17751772,
+  "net_usa": 2951227,
+  "net_chine": 3874164,
+  "net_europe": 10926382,
+  "dette_ct_nouvelle": [
+   0.0
+  ],
+  "tresorerie_fin": [
+   17777089.0
+  ],
+  "fournisseurs_requis": 3.0,
+  "fournisseurs_actifs": 3,
+  "cout_composant": 791.0,
+  "stock_final_Thermique": 141.0,
+  "non_servi_Thermique": 0.0,
+  "stock_final_Hybride": 98.0,
+  "non_servi_Hybride": 0.0,
+  "stock_final_Électrique": 0.0,
+  "non_servi_Électrique": 0.0,
+  "stock_final_Hydrogène": 0.0,
+  "non_servi_Hydrogène": 0.0,
+  "score_esg": 2.72,
+  "jours_homme_libres": 0.0
+ },
+ "defavorable": {
+  "ca": 55947763,
+  "ebitda": 14694093,
+  "ebit": 13623980,
+  "net": 11586466,
+  "net_usa": 1749829,
+  "net_chine": 2437293,
+  "net_europe": 7399344,
+  "dette_ct_nouvelle": [
+   0.0
+  ],
+  "tresorerie_fin": [
+   16729054.0
+  ],
+  "fournisseurs_requis": 3.0,
+  "fournisseurs_actifs": 3,
+  "cout_composant": 791.0,
+  "stock_final_Thermique": 453.0,
+  "non_servi_Thermique": 0.0,
+  "stock_final_Hybride": 353.0,
+  "non_servi_Hybride": 0.0,
+  "stock_final_Électrique": 0.0,
+  "non_servi_Électrique": 0.0,
+  "stock_final_Hydrogène": 0.0,
+  "non_servi_Hydrogène": 0.0,
+  "score_esg": 2.72,
+  "jours_homme_libres": 0.0
+ }
+}

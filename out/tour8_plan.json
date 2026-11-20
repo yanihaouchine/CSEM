@@ -1,0 +1,210 @@
+{
+ "x": [
+  [
+   38500.0,
+   8.0,
+   500.0
+  ],
+  [
+   51800.0,
+   8.0,
+   700.0
+  ],
+  [
+   234000.0,
+   9.0,
+   450.0
+  ],
+  [
+   352000.0,
+   8.0,
+   700.0
+  ],
+  [
+   37500.0,
+   7.0,
+   500.0
+  ],
+  [
+   58300.0,
+   7.0,
+   700.0
+  ]
+ ],
+ "dem": {
+  "USA|Hybride": {
+   "moy": 298.37986671665186,
+   "plan": 319.77012463256125,
+   "p10": 246.37244049639347,
+   "p90": 356.94517006472023
+  },
+  "USA|Électrique": {
+   "moy": 345.3684302458942,
+   "plan": 438.6310088373153,
+   "p10": 113.3421579056457,
+   "p90": 674.7211644435487
+  },
+  "Chine|Hybride": {
+   "moy": 347.3891348001892,
+   "plan": 379.03330315392043,
+   "p10": 261.70676439140766,
+   "p90": 434.24958449519636
+  },
+  "Chine|Électrique": {
+   "moy": 413.23708146573944,
+   "plan": 450.69677125144244,
+   "p10": 337.05377179401944,
+   "p90": 492.8296437268393
+  },
+  "Europe|Hybride": {
+   "moy": 307.7243964027288,
+   "plan": 333.5958809639435,
+   "p10": 234.06911134413735,
+   "p90": 374.8908389869331
+  },
+  "Europe|Électrique": {
+   "moy": 346.86696566279767,
+   "plan": 370.80706319063506,
+   "p10": 289.46005153688253,
+   "p90": 418.42425776003194
+  }
+ },
+ "flows": [
+  {
+   "source": "usine Chine H",
+   "cellule": "Chine|Hybride",
+   "k_unites": 379.0
+  },
+  {
+   "source": "usine Chine H",
+   "cellule": "Europe|Hybride",
+   "k_unites": 333.6
+  },
+  {
+   "source": "usine Chine E",
+   "cellule": "Chine|Électrique",
+   "k_unites": 450.7
+  },
+  {
+   "source": "usine Chine E",
+   "cellule": "Europe|Électrique",
+   "k_unites": 46.7
+  },
+  {
+   "source": "usine USA H",
+   "cellule": "USA|Hybride",
+   "k_unites": 319.8
+  },
+  {
+   "source": "usine USA E",
+   "cellule": "USA|Électrique",
+   "k_unites": 438.6
+  },
+  {
+   "source": "usine USA E",
+   "cellule": "Europe|Électrique",
+   "k_unites": 324.1
+  }
+ ],
+ "dec": {
+  "area1.tech2.price": 38500,
+  "area1.tech2.feat": 8,
+  "area1.tech2.adv": 500000,
+  "area1.tech2.share.est": 2.9,
+  "area1.tech3.price": 51800,
+  "area1.tech3.feat": 8,
+  "area1.tech3.adv": 700000,
+  "area1.tech3.share.est": 3.3,
+  "area2.tech2.price": 234000,
+  "area2.tech2.feat": 9,
+  "area2.tech2.adv": 450000,
+  "area2.tech2.share.est": 3.3,
+  "area2.tech3.price": 352000,
+  "area2.tech3.feat": 8,
+  "area2.tech3.adv": 700000,
+  "area2.tech3.share.est": 3.9,
+  "area3.tech2.price": 37500,
+  "area3.tech2.feat": 7,
+  "area3.tech2.adv": 500000,
+  "area3.tech2.share.est": 3.1,
+  "area3.tech3.price": 58300,
+  "area3.tech3.feat": 7,
+  "area3.tech3.adv": 700000,
+  "area3.tech3.share.est": 3.5,
+  "us.growth.prediction": 2.5,
+  "asia.growth.prediction": 10.0,
+  "eu.growth.prediction": -4.5
+ },
+ "prod": {
+  "us.production1": 43.2,
+  "us.production2": 18.2,
+  "asia.production1": 40.6,
+  "asia.production2": 58.1
+ },
+ "quantile": 0.75,
+ "prod_table": {
+  "0.4": {
+   "stock": 95.44,
+   "non_servi": 322.093,
+   "pts_stock": 9.633,
+   "pts_non_servi": 7.283,
+   "net": -5192.09,
+   "pts_finance": -2.825,
+   "total": 14.092
+  },
+  "0.5": {
+   "stock": 157.904,
+   "non_servi": 245.35,
+   "pts_stock": 9.35,
+   "pts_non_servi": 7.925,
+   "net": -4196.01,
+   "pts_finance": -1.7,
+   "total": 15.575
+  },
+  "0.6": {
+   "stock": 224.176,
+   "non_servi": 189.15,
+   "pts_stock": 8.95,
+   "pts_non_servi": 8.4,
+   "net": -3492.269,
+   "pts_finance": -0.858,
+   "total": 16.492
+  },
+  "0.7": {
+   "stock": 304.021,
+   "non_servi": 146.307,
+   "pts_stock": 8.433,
+   "pts_non_servi": 8.808,
+   "net": -2987.727,
+   "pts_finance": -0.375,
+   "total": 16.867
+  },
+  "0.75": {
+   "stock": 359.03,
+   "non_servi": 125.462,
+   "pts_stock": 8.05,
+   "pts_non_servi": 9.017,
+   "net": -2814.728,
+   "pts_finance": -0.192,
+   "total": 16.875
+  },
+  "0.8": {
+   "stock": 460.157,
+   "non_servi": 95.747,
+   "pts_stock": 7.4,
+   "pts_non_servi": 9.217,
+   "net": -2615.861,
+   "pts_finance": 0.0,
+   "total": 16.617
+  },
+  "0.9": {
+   "stock": 744.029,
+   "non_servi": 50.934,
+   "pts_stock": 5.325,
+   "pts_non_servi": 9.608,
+   "net": -2637.092,
+   "pts_finance": -0.017,
+   "total": 14.917
+  }
+ }
+}

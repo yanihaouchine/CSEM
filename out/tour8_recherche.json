@@ -1,0 +1,20 @@
+{
+ "D": {
+  "esg2.labor.regulations": "Partenariat stratégique",
+  "esg.emissions.invest": false,
+  "esg.energy.invest": true,
+  "esg.water.invest": true,
+  "supplier.1": false,
+  "supplier.2": false,
+  "supplier.3": false,
+  "supplier.4": true,
+  "supplier.5": false,
+  "esg.reporting": "Argent"
+ },
+ "E": {
+  "transfer.asia.to.eu": 1.25,
+  "cash.us.to.asia": 10000000,
+  "cash.us.to.eu": -13000000
+ },
+ "appels_plateforme": 97
+}

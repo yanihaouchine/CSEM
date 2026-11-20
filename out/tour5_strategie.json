@@ -1,0 +1,137 @@
+{
+ "strategy": {
+  "USA|Thermique": [
+   22000.0,
+   5.0,
+   1100.0
+  ],
+  "USA|Hybride": [
+   39700.0,
+   7.0,
+   400.0
+  ],
+  "Chine|Thermique": [
+   139000.0,
+   6.0,
+   650.0
+  ],
+  "Chine|Hybride": [
+   243000.0,
+   7.0,
+   350.0
+  ],
+  "Europe|Thermique": [
+   25500.0,
+   7.0,
+   1050.0
+  ],
+  "Europe|Hybride": [
+   38800.0,
+   7.0,
+   400.0
+  ]
+ },
+ "shares": {
+  "USA|Thermique": 4.8,
+  "USA|Hybride": 2.5,
+  "Chine|Thermique": 4.3,
+  "Chine|Hybride": 3.1,
+  "Europe|Thermique": 4.2,
+  "Europe|Hybride": 2.7
+ },
+ "demand": {
+  "USA|Thermique": {
+   "moy": 467,
+   "p10": 356,
+   "p75": 491,
+   "p90": 645
+  },
+  "USA|Hybride": {
+   "moy": 238,
+   "p10": 190,
+   "p75": 259,
+   "p90": 287
+  },
+  "Chine|Thermique": {
+   "moy": 443,
+   "p10": 362,
+   "p75": 486,
+   "p90": 546
+  },
+  "Chine|Hybride": {
+   "moy": 313,
+   "p10": 248,
+   "p75": 341,
+   "p90": 377
+  },
+  "Europe|Thermique": {
+   "moy": 464,
+   "p10": 400,
+   "p75": 504,
+   "p90": 530
+  },
+  "Europe|Hybride": {
+   "moy": 296,
+   "p10": 242,
+   "p75": 324,
+   "p90": 347
+  }
+ },
+ "production": {
+  "sous-traitance Chine H": 484,
+  "sous-traitance USA H": 167,
+  "stock Chine H": 74,
+  "stock Chine T": 194,
+  "usine Chine H": 107,
+  "usine Chine T": 1083,
+  "usine USA H": 92,
+  "usine USA T": 204
+ },
+ "matrix": {
+  "statu quo": {
+   "décisions du tour 4 reconduites": 20937.0,
+   "recommandation": 23116.0,
+   "optimum du modèle": 24499.0
+  },
+  "tendance": {
+   "décisions du tour 4 reconduites": 21155.0,
+   "recommandation": 23423.0,
+   "optimum du modèle": 24947.0
+  },
+  "guerre des prix": {
+   "décisions du tour 4 reconduites": 17076.0,
+   "recommandation": 18597.0,
+   "optimum du modèle": 19389.0
+  },
+  "montée en gamme": {
+   "décisions du tour 4 reconduites": 17512.0,
+   "recommandation": 19185.0,
+   "optimum du modèle": 20120.0
+  },
+  "meilleure réponse": {
+   "décisions du tour 4 reconduites": 23513.0,
+   "recommandation": 26303.0,
+   "optimum du modèle": 28077.0
+  },
+  "mélange": {
+   "décisions du tour 4 reconduites": 19891.0,
+   "recommandation": 21860.0,
+   "optimum du modèle": 22987.0
+  },
+  "moyenne": {
+   "décisions du tour 4 reconduites": 20014.0,
+   "recommandation": 22081.0,
+   "optimum du modèle": 23337.0
+  },
+  "P10": {
+   "décisions du tour 4 reconduites": 16580.0,
+   "recommandation": 18322.0,
+   "optimum du modèle": 19104.0
+  },
+  "regret max": {
+   "décisions du tour 4 reconduites": 4563.0,
+   "recommandation": 1774.0,
+   "optimum du modèle": 0.0
+  }
+ }
+}

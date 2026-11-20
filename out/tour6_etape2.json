@@ -1,0 +1,316 @@
+{
+ "formation : éthique seule": {
+  "ca": 74556216,
+  "ebitda": 22660309,
+  "ebit": 21590197,
+  "net": 18043938,
+  "net_usa": 3023152,
+  "net_chine": 4014505,
+  "net_europe": 11006281,
+  "dette_ct_nouvelle": [
+   0.0
+  ],
+  "tresorerie_fin": [
+   22327999.0
+  ],
+  "fournisseurs_requis": 3.0,
+  "fournisseurs_actifs": 3,
+  "cout_composant": 791.0,
+  "stock_final_Thermique": 141.0,
+  "non_servi_Thermique": 0.0,
+  "stock_final_Hybride": 2.0,
+  "non_servi_Hybride": 0.0,
+  "stock_final_Électrique": 0.0,
+  "non_servi_Électrique": 0.0,
+  "stock_final_Hydrogène": 0.0,
+  "non_servi_Hydrogène": 0.0,
+  "score_esg": 2.72,
+  "jours_homme_libres": 0.0
+ },
+ "quotas : mentorat": {
+  "ca": 74556216,
+  "ebitda": 22660309,
+  "ebit": 21590197,
+  "net": 18043938,
+  "net_usa": 3023152,
+  "net_chine": 4014505,
+  "net_europe": 11006281,
+  "dette_ct_nouvelle": [
+   0.0
+  ],
+  "tresorerie_fin": [
+   22327999.0
+  ],
+  "fournisseurs_requis": 3.0,
+  "fournisseurs_actifs": 3,
+  "cout_composant": 791.0,
+  "stock_final_Thermique": 141.0,
+  "non_servi_Thermique": 0.0,
+  "stock_final_Hybride": 2.0,
+  "non_servi_Hybride": 0.0,
+  "stock_final_Électrique": 0.0,
+  "non_servi_Électrique": 0.0,
+  "stock_final_Hydrogène": 0.0,
+  "non_servi_Hydrogène": 0.0,
+  "score_esg": 2.72,
+  "jours_homme_libres": 0.0
+ },
+ "processus : eau": {
+  "ca": 74556216,
+  "ebitda": 22531702,
+  "ebit": 21461590,
+  "net": 17940014,
+  "net_usa": 2983750,
+  "net_chine": 3986777,
+  "net_europe": 10969487,
+  "dette_ct_nouvelle": [
+   0.0
+  ],
+  "tresorerie_fin": [
+   22209612.0
+  ],
+  "fournisseurs_requis": 3.0,
+  "fournisseurs_actifs": 3,
+  "cout_composant": 791.0,
+  "stock_final_Thermique": 141.0,
+  "non_servi_Thermique": 0.0,
+  "stock_final_Hybride": 2.0,
+  "non_servi_Hybride": 0.0,
+  "stock_final_Électrique": 0.0,
+  "non_servi_Électrique": 0.0,
+  "stock_final_Hydrogène": 0.0,
+  "non_servi_Hydrogène": 0.0,
+  "score_esg": 2.72,
+  "jours_homme_libres": 0.0
+ },
+ "processus : énergie": {
+  "ca": 69800678,
+  "ebitda": 21151315,
+  "ebit": 20081203,
+  "net": 16874811,
+  "net_usa": 2715492,
+  "net_chine": 3565265,
+  "net_europe": 10594054,
+  "dette_ct_nouvelle": [
+   0.0
+  ],
+  "tresorerie_fin": [
+   21894113.0
+  ],
+  "fournisseurs_requis": 3.0,
+  "fournisseurs_actifs": 3,
+  "cout_composant": 791.0,
+  "stock_final_Thermique": 0.0,
+  "non_servi_Thermique": 60.0,
+  "stock_final_Hybride": 0.0,
+  "non_servi_Hybride": 81.0,
+  "stock_final_Électrique": 0.0,
+  "non_servi_Électrique": 0.0,
+  "stock_final_Hydrogène": 0.0,
+  "non_servi_Hydrogène": 0.0,
+  "score_esg": 2.72,
+  "jours_homme_libres": 0.0
+ },
+ "processus : CO2": {
+  "ca": 66788427,
+  "ebitda": 19899375,
+  "ebit": 18829263,
+  "net": 15879904,
+  "net_usa": 2436110,
+  "net_chine": 3452471,
+  "net_europe": 9991322,
+  "dette_ct_nouvelle": [
+   0.0
+  ],
+  "tresorerie_fin": [
+   21664035.0
+  ],
+  "fournisseurs_requis": 3.0,
+  "fournisseurs_actifs": 3,
+  "cout_composant": 791.0,
+  "stock_final_Thermique": 0.0,
+  "non_servi_Thermique": 128.0,
+  "stock_final_Hybride": 0.0,
+  "non_servi_Hybride": 109.0,
+  "stock_final_Électrique": 0.0,
+  "non_servi_Électrique": 0.0,
+  "stock_final_Hydrogène": 0.0,
+  "non_servi_Hydrogène": 0.0,
+  "score_esg": 2.72,
+  "jours_homme_libres": 0.0
+ },
+ "processus : eau + énergie": {
+  "ca": 69800678,
+  "ebitda": 21036291,
+  "ebit": 19966179,
+  "net": 16781739,
+  "net_usa": 2678280,
+  "net_chine": 3540753,
+  "net_europe": 10562705,
+  "dette_ct_nouvelle": [
+   0.0
+  ],
+  "tresorerie_fin": [
+   21777620.0
+  ],
+  "fournisseurs_requis": 3.0,
+  "fournisseurs_actifs": 3,
+  "cout_composant": 791.0,
+  "stock_final_Thermique": 0.0,
+  "non_servi_Thermique": 60.0,
+  "stock_final_Hybride": 0.0,
+  "non_servi_Hybride": 81.0,
+  "stock_final_Électrique": 0.0,
+  "non_servi_Électrique": 0.0,
+  "stock_final_Hydrogène": 0.0,
+  "non_servi_Hydrogène": 0.0,
+  "score_esg": 2.72,
+  "jours_homme_libres": 0.0
+ },
+ "recyclabilité : engagement": {
+  "ca": 74556216,
+  "ebitda": 22660309,
+  "ebit": 21590197,
+  "net": 18043938,
+  "net_usa": 3023152,
+  "net_chine": 4014505,
+  "net_europe": 11006281,
+  "dette_ct_nouvelle": [
+   0.0
+  ],
+  "tresorerie_fin": [
+   22327999.0
+  ],
+  "fournisseurs_requis": 3.0,
+  "fournisseurs_actifs": 3,
+  "cout_composant": 791.0,
+  "stock_final_Thermique": 141.0,
+  "non_servi_Thermique": 0.0,
+  "stock_final_Hybride": 2.0,
+  "non_servi_Hybride": 0.0,
+  "stock_final_Électrique": 0.0,
+  "non_servi_Électrique": 0.0,
+  "stock_final_Hydrogène": 0.0,
+  "non_servi_Hydrogène": 0.0,
+  "score_esg": 2.72,
+  "jours_homme_libres": 0.0
+ },
+ "qualité : fournisseur alternatif": {
+  "ca": 74556216,
+  "ebitda": 22750401,
+  "ebit": 21680289,
+  "net": 18115446,
+  "net_usa": 3048681,
+  "net_chine": 4034084,
+  "net_europe": 11032680,
+  "dette_ct_nouvelle": [
+   0.0
+  ],
+  "tresorerie_fin": [
+   22352187.0
+  ],
+  "fournisseurs_requis": 3.0,
+  "fournisseurs_actifs": 3,
+  "cout_composant": 791.0,
+  "stock_final_Thermique": 141.0,
+  "non_servi_Thermique": 0.0,
+  "stock_final_Hybride": 2.0,
+  "non_servi_Hybride": 0.0,
+  "stock_final_Électrique": 0.0,
+  "non_servi_Électrique": 0.0,
+  "stock_final_Hydrogène": 0.0,
+  "non_servi_Hydrogène": 0.0,
+  "score_esg": 2.72,
+  "jours_homme_libres": 0.0
+ },
+ "qualité : co-développement": {
+  "refus": "esg.quality.quandary = Développer une solution avec le fournisseur actuel refusé par la plateforme : L'autre partie exige que vous atteigniez un score ESG de 3,0 ou plus pour négocier tout type de coopération avancée."
+ },
+ "batteries : sous-traiter": {
+  "ca": 74556216,
+  "ebitda": 21649725,
+  "ebit": 20579613,
+  "net": 17239507,
+  "net_usa": 2668295,
+  "net_chine": 3829304,
+  "net_europe": 10741907,
+  "dette_ct_nouvelle": [
+   0.0
+  ],
+  "tresorerie_fin": [
+   21991805.0
+  ],
+  "fournisseurs_requis": 3.0,
+  "fournisseurs_actifs": 3,
+  "cout_composant": 791.0,
+  "stock_final_Thermique": 141.0,
+  "non_servi_Thermique": 0.0,
+  "stock_final_Hybride": 2.0,
+  "non_servi_Hybride": 0.0,
+  "stock_final_Électrique": 0.0,
+  "non_servi_Électrique": 0.0,
+  "stock_final_Hydrogène": 0.0,
+  "non_servi_Hydrogène": 0.0,
+  "score_esg": 2.72,
+  "jours_homme_libres": 0.0
+ },
+ "batteries : co-développer": {
+  "refus": "esg.battery.bargaining = Co-développer les batteries refusé par la plateforme : L'autre partie exige que vous atteigniez un score ESG de 3,0 ou plus pour négocier tout type de coopération avancée."
+ },
+ "dette : rembourser 4,4 Md": {
+  "ca": 74556216,
+  "ebitda": 22660309,
+  "ebit": 21590197,
+  "net": 18061944,
+  "net_usa": 3041158,
+  "net_chine": 4014505,
+  "net_europe": 11006281,
+  "dette_ct_nouvelle": [
+   0.0
+  ],
+  "tresorerie_fin": [
+   17946006.0
+  ],
+  "fournisseurs_requis": 3.0,
+  "fournisseurs_actifs": 3,
+  "cout_composant": 791.0,
+  "stock_final_Thermique": 141.0,
+  "non_servi_Thermique": 0.0,
+  "stock_final_Hybride": 2.0,
+  "non_servi_Hybride": 0.0,
+  "stock_final_Électrique": 0.0,
+  "non_servi_Électrique": 0.0,
+  "stock_final_Hydrogène": 0.0,
+  "non_servi_Hydrogène": 0.0,
+  "score_esg": 2.72,
+  "jours_homme_libres": 0.0
+ },
+ "salaire 6 300, formation 2 000": {
+  "ca": 74556216,
+  "ebitda": 22563315,
+  "ebit": 21493202,
+  "net": 17966654,
+  "net_usa": 2972622,
+  "net_chine": 3987751,
+  "net_europe": 11006281,
+  "dette_ct_nouvelle": [
+   0.0
+  ],
+  "tresorerie_fin": [
+   22277470.0
+  ],
+  "fournisseurs_requis": 3.0,
+  "fournisseurs_actifs": 3,
+  "cout_composant": 791.0,
+  "stock_final_Thermique": 141.0,
+  "non_servi_Thermique": 0.0,
+  "stock_final_Hybride": 2.0,
+  "non_servi_Hybride": 0.0,
+  "stock_final_Électrique": 0.0,
+  "non_servi_Électrique": 0.0,
+  "stock_final_Hydrogène": 0.0,
+  "non_servi_Hydrogène": 0.0,
+  "score_esg": 2.72,
+  "jours_homme_libres": 0.0
+ }
+}

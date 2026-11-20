@@ -1,0 +1,39 @@
+{
+ "note": "Prévision de la taille des marchés du tour 5, écrite AVANT la publication des résultats (concurrents supposés au statu quo).",
+ "heure": "2026-11-19 15:28:49",
+ "croissance": {
+  "USA": 0.02,
+  "Chine": 0.1,
+  "Europe": -0.03
+ },
+ "logit": {
+  "Chine|Hybride": 3806,
+  "Chine|Thermique": 6081,
+  "Chine|Électrique": 297,
+  "Europe|Hybride": 4523,
+  "Europe|Thermique": 6105,
+  "Europe|Électrique": 482,
+  "USA|Hybride": 3696,
+  "USA|Thermique": 5994
+ },
+ "couverture": {
+  "Chine|Hybride": 4307,
+  "Chine|Thermique": 5631,
+  "Chine|Électrique": 245,
+  "Europe|Hybride": 5219,
+  "Europe|Thermique": 5395,
+  "Europe|Électrique": 496,
+  "USA|Hybride": 4198,
+  "USA|Thermique": 5492
+ },
+ "mixte": {
+  "Chine|Hybride": 4057,
+  "Chine|Thermique": 5856,
+  "Chine|Électrique": 271,
+  "Europe|Hybride": 4871,
+  "Europe|Thermique": 5750,
+  "Europe|Électrique": 489,
+  "USA|Hybride": 3947,
+  "USA|Thermique": 5743
+ }
+}

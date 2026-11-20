@@ -1,0 +1,419 @@
+{
+ "point": "±6 %",
+ "objectif": "points",
+ "quantile": 0.7,
+ "production_points": {
+  "0.4": {
+   "stock": 122.426,
+   "non_servi": 404.804,
+   "pts_stock": 8.98,
+   "pts_non_servi": 4.473,
+   "net": -5862.135,
+   "pts_finance": -2.733,
+   "total": 10.72
+  },
+  "0.5": {
+   "stock": 182.693,
+   "non_servi": 332.84,
+   "pts_stock": 8.627,
+   "pts_non_servi": 4.86,
+   "net": -5018.369,
+   "pts_finance": -1.787,
+   "total": 11.7
+  },
+  "0.6": {
+   "stock": 250.97,
+   "non_servi": 276.738,
+   "pts_stock": 8.18,
+   "pts_non_servi": 5.1,
+   "net": -4376.208,
+   "pts_finance": -1.133,
+   "total": 12.147
+  },
+  "0.7": {
+   "stock": 373.444,
+   "non_servi": 208.409,
+   "pts_stock": 7.347,
+   "pts_non_servi": 5.413,
+   "net": -3743.213,
+   "pts_finance": -0.353,
+   "total": 12.407
+  },
+  "0.75": {
+   "stock": 441.439,
+   "non_servi": 182.603,
+   "pts_stock": 6.893,
+   "pts_non_servi": 5.553,
+   "net": -3560.365,
+   "pts_finance": -0.18,
+   "total": 12.267
+  },
+  "0.8": {
+   "stock": 541.601,
+   "non_servi": 152.59,
+   "pts_stock": 6.227,
+   "pts_non_servi": 5.693,
+   "net": -3414.226,
+   "pts_finance": 0.0,
+   "total": 11.92
+  },
+  "0.9": {
+   "stock": 1015.005,
+   "non_servi": 76.015,
+   "pts_stock": 3.42,
+   "pts_non_servi": 6.08,
+   "net": -3631.799,
+   "pts_finance": -0.253,
+   "total": 9.247
+  }
+ },
+ "points": {
+  "ROE": 6.33,
+  "création de valeur": 7.34,
+  "rentabilité de l'action": 8.64,
+  "indépendance financière": 8.16,
+  "découvert": 5.91,
+  "marge USA": 6.24,
+  "marge Chine": 11.71,
+  "marge Europe": 11.14,
+  "part USA": 4.05,
+  "part Chine": 7.47,
+  "part Europe": 4.15,
+  "demande insatisfaite": 6.48,
+  "stocks": 6.96,
+  "coût unitaire USA": 5.29,
+  "coût unitaire Chine": 4.98,
+  "coût unitaire Europe": 5.39,
+  "productivité": 2.15,
+  "fournisseurs": 6.67,
+  "E": 6.0,
+  "S": 11.15,
+  "G": 4.01,
+  "certification": 2.0
+ },
+ "cells": [
+  "USA|Hybride",
+  "USA|Électrique",
+  "Chine|Hybride",
+  "Chine|Électrique",
+  "Europe|Hybride",
+  "Europe|Électrique"
+ ],
+ "strategy": {
+  "USA|Hybride": [
+   36300.0,
+   7.0,
+   600.0
+  ],
+  "USA|Électrique": [
+   51100.0,
+   8.0,
+   800.0
+  ],
+  "Chine|Hybride": [
+   220000.0,
+   10.0,
+   550.0
+  ],
+  "Chine|Électrique": [
+   331000.0,
+   9.0,
+   850.0
+  ],
+  "Europe|Hybride": [
+   37900.0,
+   5.0,
+   550.0
+  ],
+  "Europe|Électrique": [
+   54900.0,
+   7.0,
+   800.0
+  ]
+ },
+ "shares": {
+  "USA|Hybride": 2.7,
+  "USA|Électrique": 2.8,
+  "Chine|Hybride": 3.4,
+  "Chine|Électrique": 5.7,
+  "Europe|Hybride": 3.0,
+  "Europe|Électrique": 2.4
+ },
+ "demand": {
+  "USA|Hybride": {
+   "moy": 283,
+   "p10": 227,
+   "p50": 284,
+   "plan": 306,
+   "p90": 336
+  },
+  "USA|Électrique": {
+   "moy": 296,
+   "p10": 108,
+   "p50": 219,
+   "plan": 308,
+   "p90": 594
+  },
+  "Chine|Hybride": {
+   "moy": 446,
+   "p10": 340,
+   "p50": 428,
+   "plan": 462,
+   "p90": 603
+  },
+  "Chine|Électrique": {
+   "moy": 751,
+   "p10": 610,
+   "p50": 756,
+   "plan": 798,
+   "p90": 855
+  },
+  "Europe|Hybride": {
+   "moy": 303,
+   "p10": 105,
+   "p50": 244,
+   "plan": 351,
+   "p90": 583
+  },
+  "Europe|Électrique": {
+   "moy": 250,
+   "p10": 204,
+   "p50": 249,
+   "plan": 269,
+   "p90": 297
+  }
+ },
+ "marge": 38437.82205183467,
+ "gains": {
+  "moteur tel quel": {
+   "reconduit": 0.0,
+   "±6 %": 1939.0,
+   "±15 %": 2828.0,
+   "bornes larges": 12784.0
+  },
+  "clients 30 % plus sensibles au prix": {
+   "reconduit": 0.0,
+   "±6 %": 1625.0,
+   "±15 %": 3000.0,
+   "bornes larges": 4013.0
+  },
+  "marchés 15 % plus petits": {
+   "reconduit": 0.0,
+   "±6 %": 1613.0,
+   "±15 %": 2300.0,
+   "bornes larges": 9363.0
+  },
+  "pire monde": {
+   "reconduit": 0.0,
+   "±6 %": 1613.0,
+   "±15 %": 2300.0,
+   "bornes larges": 4013.0
+  },
+  "points": {
+   "reconduit": 141.0,
+   "±6 %": 146.0,
+   "±15 %": 151.0,
+   "bornes larges": 164.0
+  }
+ },
+ "frontiere": {
+  "reconduit": [
+   [
+    38500.0,
+    8.0,
+    500.0
+   ],
+   [
+    51800.0,
+    8.0,
+    700.0
+   ],
+   [
+    234000.0,
+    9.0,
+    450.0
+   ],
+   [
+    352000.0,
+    8.0,
+    700.0
+   ],
+   [
+    37500.0,
+    7.0,
+    500.0
+   ],
+   [
+    58300.0,
+    7.0,
+    700.0
+   ]
+  ],
+  "±6 %": [
+   [
+    36300.0,
+    7.0,
+    590.0
+   ],
+   [
+    51100.0,
+    8.0,
+    800.0
+   ],
+   [
+    220000.0,
+    10.0,
+    531.0
+   ],
+   [
+    331000.0,
+    9.0,
+    826.0
+   ],
+   [
+    37900.0,
+    5.0,
+    550.0
+   ],
+   [
+    54900.0,
+    7.0,
+    800.0
+   ]
+  ],
+  "±15 %": [
+   [
+    32725.0,
+    7.0,
+    700.0
+   ],
+   [
+    53000.0,
+    8.0,
+    1000.0
+   ],
+   [
+    199000.0,
+    8.0,
+    650.0
+   ],
+   [
+    300000.0,
+    9.0,
+    1000.0
+   ],
+   [
+    39200.0,
+    5.0,
+    600.0
+   ],
+   [
+    50300.0,
+    7.0,
+    950.0
+   ]
+  ],
+  "bornes larges": [
+   [
+    32800.0,
+    6.0,
+    2500.0
+   ],
+   [
+    57700.0,
+    8.0,
+    2500.0
+   ],
+   [
+    203000.0,
+    6.0,
+    2500.0
+   ],
+   [
+    307000.0,
+    9.0,
+    2500.0
+   ],
+   [
+    40500.0,
+    3.0,
+    2450.0
+   ],
+   [
+    47300.0,
+    5.0,
+    2500.0
+   ]
+  ]
+ },
+ "decisions": {
+  "area1.tech2.price": 36300,
+  "area1.tech2.feat": 7,
+  "area1.tech2.adv": 600000,
+  "area1.tech2.share.est": 2.7,
+  "area1.tech3.price": 51100,
+  "area1.tech3.feat": 8,
+  "area1.tech3.adv": 800000,
+  "area1.tech3.share.est": 2.8,
+  "area2.tech2.price": 220000,
+  "area2.tech2.feat": 10,
+  "area2.tech2.adv": 550000,
+  "area2.tech2.share.est": 3.4,
+  "area2.tech3.price": 331000,
+  "area2.tech3.feat": 9,
+  "area2.tech3.adv": 850000,
+  "area2.tech3.share.est": 5.7,
+  "area3.tech2.price": 37900,
+  "area3.tech2.feat": 5,
+  "area3.tech2.adv": 550000,
+  "area3.tech2.share.est": 3.0,
+  "area3.tech3.price": 54900,
+  "area3.tech3.feat": 7,
+  "area3.tech3.adv": 800000,
+  "area3.tech3.share.est": 2.4,
+  "us.growth.prediction": 2.5,
+  "asia.growth.prediction": 10.0,
+  "eu.growth.prediction": -4.5
+ },
+ "production": {
+  "usine Chine E": 1067.0,
+  "usine Chine H": 156.0,
+  "usine USA E": 308.0,
+  "usine USA H": 657.0
+ },
+ "flows": [
+  {
+   "source": "usine Chine H",
+   "cellule": "Chine|Hybride",
+   "k_unites": 156.0
+  },
+  {
+   "source": "usine Chine E",
+   "cellule": "Chine|Électrique",
+   "k_unites": 798.0
+  },
+  {
+   "source": "usine Chine E",
+   "cellule": "Europe|Électrique",
+   "k_unites": 269.0
+  },
+  {
+   "source": "usine USA H",
+   "cellule": "USA|Hybride",
+   "k_unites": 306.0
+  },
+  {
+   "source": "usine USA H",
+   "cellule": "Europe|Hybride",
+   "k_unites": 351.0
+  },
+  {
+   "source": "usine USA E",
+   "cellule": "USA|Électrique",
+   "k_unites": 308.0
+  }
+ ],
+ "non_servi": {
+  "Chine|Hybride": 306.0
+ }
+}

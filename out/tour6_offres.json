@@ -1,0 +1,88 @@
+{
+ "table": {
+  "offre actuelle": {
+   "marge": 23563.4551972339,
+   "ecart_a_l_actuelle": 0.0,
+   "P10": 19982.040896585,
+   "demande_nouveaux": "",
+   "cout_repris": "",
+   "marge_si_4_entrants": null,
+   "marge_si_8_entrants": null
+  },
+  "{\"Europe\": [\"Hybride\", \"Électrique\"]}": {
+   "marge": 30454.7432374991,
+   "ecart_a_l_actuelle": 6891.2880402651,
+   "P10": 25547.4941927613,
+   "demande_nouveaux": "Europe|Électrique 300 [217-381]",
+   "cout_repris": "Europe|Électrique, max_feat[Électrique] absent : 3 équipements supposés",
+   "marge_si_4_entrants": 23838.7928515701,
+   "marge_si_8_entrants": 22038.4805325237
+  }
+ },
+ "decisions": {
+  "offre actuelle": {
+   "USA|Thermique": [
+    25055.715654907952,
+    6.0,
+    810.6713495305966
+   ],
+   "USA|Hybride": [
+    44119.87556932049,
+    8.0,
+    484.7388400644952
+   ],
+   "Chine|Thermique": [
+    143947.33664933982,
+    6.0,
+    931.063157108307
+   ],
+   "Chine|Hybride": [
+    254301.42348597897,
+    8.0,
+    495.622622541327
+   ],
+   "Europe|Thermique": [
+    28971.50010222289,
+    6.0,
+    1513.38717585852
+   ],
+   "Europe|Hybride": [
+    41579.5951520983,
+    8.0,
+    579.1325860841494
+   ]
+  },
+  "{\"Europe\": [\"Hybride\", \"Électrique\"]}": {
+   "USA|Thermique": [
+    25021.329022272897,
+    6.0,
+    964.7925758589563
+   ],
+   "USA|Hybride": [
+    44351.96974159912,
+    8.0,
+    427.7551999704324
+   ],
+   "Chine|Thermique": [
+    148110.94342720593,
+    6.0,
+    912.3936221114534
+   ],
+   "Chine|Hybride": [
+    247443.24203723547,
+    8.0,
+    498.1309481867503
+   ],
+   "Europe|Hybride": [
+    42834.29052741617,
+    8.0,
+    562.4953268147619
+   ],
+   "Europe|Électrique": [
+    71379.80340998668,
+    3.0,
+    1374.5726996984617
+   ]
+  }
+ }
+}
